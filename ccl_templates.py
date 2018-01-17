@@ -81,8 +81,37 @@ DOMAIN: !DOMAIN_NAME!
 
 """
 
+    template_domain_interface ="""
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: !INTERFACE_NAME!
+Boundary List1 = !SIDE1!
+Boundary List2 = !SIDE2!
+    Filter Domain List1 = !DOM1!
+    Filter Domain List2 = !DOM2!
+    Interface Region List1 = !BND1!
+    Interface Region List2 = !BND2!
+    Interface Type = !IF_TYPE!
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+"""
+
     d_template = {'domain_fluid':template_domain_fluid,
-                  'domain_solid':template_domain_solid,}
+                  'domain_solid':template_domain_solid,
+                  'domain_interface':template_domain_interface}
     
     return d_template[name]
 

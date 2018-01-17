@@ -1,6 +1,5 @@
 import tkinter as tk
-import re
-import ccl_templates as template
+from interface import if_mainloop
 from tkinter import filedialog
 import os
 
@@ -75,7 +74,7 @@ class AppRenameIfs(tk.Frame):
         self.tags.entry_tagfsif.grid(row=5,column=2,sticky='NSEW',padx=5,pady=5)
         
         self.tags.button_write.grid(row=6,column=1,columnspan=2,sticky='NSEW')
-        self.tags.button.config(command=self.cmd_write)
+        self.tags.button_write.config(command=self.cmd_write)
         
         
     def cmd_selectinput(self):
@@ -113,29 +112,28 @@ class AppRenameIfs(tk.Frame):
         with open(self.inputfile_fullpath) as f:
             for line in f:
                 self.inputdata.append(line.strip())
-        
-    def get_if_names(self):
-        self.default_if_names = []
-        for line in self.inputdata:
-            if 'DOMAIN INTERFACE:' in line:
-                self.default_if_names.append(line.split(' : ')[1])
-    
-    def get_dom_names(self):
-        self.dom_names = []
-        for line in self.inputdata:
-            if 'DOMAIN:' in line:
-                self.dom_names.append(line.split(' : ')[1])
-              
     
     def cmd_write(self):
-        # do check!!!
+        if self.check_entries():        
+            self.tag_domain_solid = self.tags.entry_tagsolid.get()
+            self.tag_domain_fluid = self.tags.entry_tagfluid.get()
+            self.tag_ffif = self.tags.entry_tagffif.get()
+            self.tag_ssif = self.tags.entry_tagssif.get()
+            self.tag_fsif = self.tags.entry_tagfsif.get()
+            
+            tags = {'fluid':self.tag_domain_fluid,
+                    'solid':self.tag_domain_solid,
+                    'ffif':self.tag_ffif,
+                    'ssif':self.tag_ssif,
+                    'fsif':self.tag_fsif,
+                    }
+            
+            if_mainloop(self.inputfile_fullpath)
+            if_mainloop.new_name(self,tags)
+            if_mainloop.write(self,self.outpufile_fullpath)
+        else:
+            return
         
-        self.read_data_from_ccl()
-        self.get_if_names()
-        self.get_dom_names()
-        
-        pass
-    
     def check_entries(self):
         if not os.path.isfile(self.fp.entry_inputfile.get()):
             print ('Path of inputfile is invalid!')

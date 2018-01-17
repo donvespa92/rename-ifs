@@ -1,0 +1,4264 @@
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: FLUID SOLID_FLD_GAS_SLD_WASHER_SCRAPER
+Boundary List1 = FLUID SOLID_FLD_GAS_SLD_WASHER_SCRAPER Side 1
+Boundary List2 = FLUID SOLID_FLD_GAS_SLD_WASHER_SCRAPER Side 2
+    Filter Domain List1 = FLD_GAS
+    Filter Domain List2 = SLD_WASHER_SCRAPER
+    Interface Region List1 = Primitive 2D N,Primitive 2D O,Primitive 2D P
+    Interface Region List2 = sld_washer_scraper Shadow
+    Interface Type = Fluid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: FLUID SOLID_FLD_GAS_SLD_WASHER_SCRAPER
+Boundary List1 = FLUID SOLID_FLD_GAS_SLD_WASHER_SCRAPER Side 1
+Boundary List2 = FLUID SOLID_FLD_GAS_SLD_WASHER_SCRAPER Side 2
+    Filter Domain List1 = FLD_GAS
+    Filter Domain List2 = SLD_WASHER_SCRAPER
+    Interface Region List1 = sld_washer_scraper
+    Interface Region List2 = sld_washer_scraper Shadow
+    Interface Type = Fluid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: FLUID SOLID_FLD_GAS_SLD_WASHER_SCRAPER
+Boundary List1 = FLUID SOLID_FLD_GAS_SLD_WASHER_SCRAPER Side 1
+Boundary List2 = FLUID SOLID_FLD_GAS_SLD_WASHER_SCRAPER Side 2
+    Filter Domain List1 = FLD_GAS
+    Filter Domain List2 = SLD_WASHER_SCRAPER
+    Interface Region List1 = sld_washer_scraper
+    Interface Region List2 = sld_washer_scraper Shadow
+    Interface Type = Fluid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: FLUID SOLID_FLD_GAS_SLD_BUSHING_2
+Boundary List1 = FLUID SOLID_FLD_GAS_SLD_BUSHING_2 Side 1
+Boundary List2 = FLUID SOLID_FLD_GAS_SLD_BUSHING_2 Side 2
+    Filter Domain List1 = FLD_GAS
+    Filter Domain List2 = SLD_BUSHING_2
+    Interface Region List1 = sld_bushing_2
+    Interface Region List2 = sld_bushing_2 Shadow
+    Interface Type = Fluid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: FLUID SOLID_FLD_GAS_SLD_GAS_1
+Boundary List1 = FLUID SOLID_FLD_GAS_SLD_GAS_1 Side 1
+Boundary List2 = FLUID SOLID_FLD_GAS_SLD_GAS_1 Side 2
+    Filter Domain List1 = FLD_GAS
+    Filter Domain List2 = SLD_GAS_1
+    Interface Region List1 = sld_gas_1
+    Interface Region List2 = sld_gas_1 Shadow
+    Interface Type = Fluid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: FLUID SOLID_FLD_GAS_SLD_HOUSING_TUBE_MACHINED
+Boundary List1 = FLUID SOLID_FLD_GAS_SLD_HOUSING_TUBE_MACHINED Side 1
+Boundary List2 = FLUID SOLID_FLD_GAS_SLD_HOUSING_TUBE_MACHINED Side 2
+    Filter Domain List1 = FLD_GAS
+    Filter Domain List2 = SLD_HOUSING_TUBE_MACHINED
+    Interface Region List1 = sld_housing_tube_machined 325,sld_housing_tube_machined 328,sld_housing_tube_machined 329
+    Interface Region List2 = sld_housing_tube_machined 325 Shadow,sld_housing_tube_machined 328 Shadow,sld_housing_tube_machined 329 Shadow
+    Interface Type = Fluid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: FLUID SOLID_FLD_GAS_SLD_PIN_GAS_1
+Boundary List1 = FLUID SOLID_FLD_GAS_SLD_PIN_GAS_1 Side 1
+Boundary List2 = FLUID SOLID_FLD_GAS_SLD_PIN_GAS_1 Side 2
+    Filter Domain List1 = FLD_GAS
+    Filter Domain List2 = SLD_PIN_GAS_1
+    Interface Region List1 = sld_pin_gas_1
+    Interface Region List2 = sld_pin_gas_1 Shadow
+    Interface Type = Fluid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: FLUID SOLID_FLD_GAS_SLD_PIN_GAS_2
+Boundary List1 = FLUID SOLID_FLD_GAS_SLD_PIN_GAS_2 Side 1
+Boundary List2 = FLUID SOLID_FLD_GAS_SLD_PIN_GAS_2 Side 2
+    Filter Domain List1 = FLD_GAS
+    Filter Domain List2 = SLD_PIN_GAS_2
+    Interface Region List1 = sld_pin_gas_2
+    Interface Region List2 = sld_pin_gas_2 Shadow
+    Interface Type = Fluid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: FLUID SOLID_FLD_GAS_SLD_RETAINER_BUSHING_1
+Boundary List1 = FLUID SOLID_FLD_GAS_SLD_RETAINER_BUSHING_1 Side 1
+Boundary List2 = FLUID SOLID_FLD_GAS_SLD_RETAINER_BUSHING_1 Side 2
+    Filter Domain List1 = FLD_GAS
+    Filter Domain List2 = SLD_RETAINER_BUSHING_1
+    Interface Region List1 = sld_retainer_bushing_1
+    Interface Region List2 = sld_retainer_bushing_1 Shadow
+    Interface Type = Fluid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: FLUID SOLID_FLD_GAS_SLD_RETAINER_BUSHING_2
+Boundary List1 = FLUID SOLID_FLD_GAS_SLD_RETAINER_BUSHING_2 Side 1
+Boundary List2 = FLUID SOLID_FLD_GAS_SLD_RETAINER_BUSHING_2 Side 2
+    Filter Domain List1 = FLD_GAS
+    Filter Domain List2 = SLD_RETAINER_BUSHING_2
+    Interface Region List1 = sld_retainer_bushing_2 346
+    Interface Region List2 = sld_retainer_bushing_2 346 Shadow
+    Interface Type = Fluid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: FLUID SOLID_FLD_GAS_SLD_VALVE_PLATE
+Boundary List1 = FLUID SOLID_FLD_GAS_SLD_VALVE_PLATE Side 1
+Boundary List2 = FLUID SOLID_FLD_GAS_SLD_VALVE_PLATE Side 2
+    Filter Domain List1 = FLD_GAS
+    Filter Domain List2 = SLD_VALVE_PLATE
+    Interface Region List1 = sld_valve_plate
+    Interface Region List2 = sld_valve_plate Shadow
+    Interface Type = Fluid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_SHAFT_SLD_WASHER_SCRAPER
+Boundary List1 = SOLID SOLID_SLD_SHAFT_SLD_WASHER_SCRAPER Side 1
+Boundary List2 = SOLID SOLID_SLD_SHAFT_SLD_WASHER_SCRAPER Side 2
+    Filter Domain List1 = SLD_SHAFT
+    Filter Domain List2 = SLD_WASHER_SCRAPER
+    Interface Region List1 = if_contact_shaft_washer_scraper Shadow,sld_shaft sld_washer_scraper 730 Shadow,sld_shaft sld_washer_scraper Shadow
+    Interface Region List2 = if_contact_shaft_washer_scraper,sld_shaft sld_washer_scraper,sld_shaft sld_washer_scraper 730
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_SHAFT_SLD_WASHER_SCRAPER
+Boundary List1 = SOLID SOLID_SLD_SHAFT_SLD_WASHER_SCRAPER Side 1
+Boundary List2 = SOLID SOLID_SLD_SHAFT_SLD_WASHER_SCRAPER Side 2
+    Filter Domain List1 = SLD_SHAFT
+    Filter Domain List2 = SLD_WASHER_SCRAPER
+    Interface Region List1 = if_contact_shaft_washer_scraper Shadow,sld_shaft sld_washer_scraper 730 Shadow,sld_shaft sld_washer_scraper Shadow
+    Interface Region List2 = if_contact_shaft_washer_scraper,sld_shaft sld_washer_scraper,sld_shaft sld_washer_scraper 730
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_BUSHING_2_SLD_WASHER_SCRAPER
+Boundary List1 = SOLID SOLID_SLD_BUSHING_2_SLD_WASHER_SCRAPER Side 1
+Boundary List2 = SOLID SOLID_SLD_BUSHING_2_SLD_WASHER_SCRAPER Side 2
+    Filter Domain List1 = SLD_BUSHING_2
+    Filter Domain List2 = SLD_WASHER_SCRAPER
+    Interface Region List1 = sld_bushing_2 sld_cap Shadow
+    Interface Region List2 = sld_bushing_1 sld_washer_scraper
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_BRACKET_FLANGE_SLD_INSULATION_GLIMMER_BOTTOM
+Boundary List1 = SOLID SOLID_SLD_BRACKET_FLANGE_SLD_INSULATION_GLIMMER_BOTTOM Side 1
+Boundary List2 = SOLID SOLID_SLD_BRACKET_FLANGE_SLD_INSULATION_GLIMMER_BOTTOM Side 2
+    Filter Domain List1 = SLD_BRACKET_FLANGE
+    Filter Domain List2 = SLD_INSULATION_GLIMMER_BOTTOM
+    Interface Region List1 = sld_bracket_flange sld_insulation_glimmer_bottom Shadow
+    Interface Region List2 = sld_bracket_flange sld_insulation_glimmer_bottom
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_BRACKET_FLANGE_SLD_NUT_1
+Boundary List1 = SOLID SOLID_SLD_BRACKET_FLANGE_SLD_NUT_1 Side 1
+Boundary List2 = SOLID SOLID_SLD_BRACKET_FLANGE_SLD_NUT_1 Side 2
+    Filter Domain List1 = SLD_BRACKET_FLANGE
+    Filter Domain List2 = SLD_NUT_1
+    Interface Region List1 = sld_bracket_flange sld_nut_1 Shadow
+    Interface Region List2 = sld_bracket_flange sld_nut_1
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_BRACKET_FLANGE_SLD_NUT_2
+Boundary List1 = SOLID SOLID_SLD_BRACKET_FLANGE_SLD_NUT_2 Side 1
+Boundary List2 = SOLID SOLID_SLD_BRACKET_FLANGE_SLD_NUT_2 Side 2
+    Filter Domain List1 = SLD_BRACKET_FLANGE
+    Filter Domain List2 = SLD_NUT_2
+    Interface Region List1 = sld_bracket_flange sld_nut_2 Shadow
+    Interface Region List2 = sld_bracket_flange sld_nut_2
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_BRACKET_FLANGE_SLD_NUT_3
+Boundary List1 = SOLID SOLID_SLD_BRACKET_FLANGE_SLD_NUT_3 Side 1
+Boundary List2 = SOLID SOLID_SLD_BRACKET_FLANGE_SLD_NUT_3 Side 2
+    Filter Domain List1 = SLD_BRACKET_FLANGE
+    Filter Domain List2 = SLD_NUT_3
+    Interface Region List1 = sld_bracket_flange sld_nut_3 Shadow
+    Interface Region List2 = sld_bracket_flange sld_nut_3
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_BUSHING_1_SLD_SHAFT
+Boundary List1 = SOLID SOLID_SLD_BUSHING_1_SLD_SHAFT Side 1
+Boundary List2 = SOLID SOLID_SLD_BUSHING_1_SLD_SHAFT Side 2
+    Filter Domain List1 = SLD_BUSHING_1
+    Filter Domain List2 = SLD_SHAFT
+    Interface Region List1 = if_contact_shaft_bushing_1 Shadow,sld_bushing_1 sld_shaft Shadow
+    Interface Region List2 = if_contact_shaft_bushing_1,sld_bushing_1 sld_shaft
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_BUSHING_1_SLD_CAP_BUSHING
+Boundary List1 = SOLID SOLID_SLD_BUSHING_1_SLD_CAP_BUSHING Side 1
+Boundary List2 = SOLID SOLID_SLD_BUSHING_1_SLD_CAP_BUSHING Side 2
+    Filter Domain List1 = SLD_BUSHING_1
+    Filter Domain List2 = SLD_CAP_BUSHING
+    Interface Region List1 = sld_bushing_1 sld_cap_bushing Shadow
+    Interface Region List2 = sld_bushing_1 sld_cap_bushing
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_BUSHING_1_SLD_RETAINER_BUSHING_1
+Boundary List1 = SOLID SOLID_SLD_BUSHING_1_SLD_RETAINER_BUSHING_1 Side 1
+Boundary List2 = SOLID SOLID_SLD_BUSHING_1_SLD_RETAINER_BUSHING_1 Side 2
+    Filter Domain List1 = SLD_BUSHING_1
+    Filter Domain List2 = SLD_RETAINER_BUSHING_1
+    Interface Region List1 = sld_bushing_1 sld_retainer_bushing_1 Shadow
+    Interface Region List2 = sld_bushing_1 sld_retainer_bushing_1
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_BUSHING_1_SLD_WASHER_SCRAPER
+Boundary List1 = SOLID SOLID_SLD_BUSHING_1_SLD_WASHER_SCRAPER Side 1
+Boundary List2 = SOLID SOLID_SLD_BUSHING_1_SLD_WASHER_SCRAPER Side 2
+    Filter Domain List1 = SLD_BUSHING_1
+    Filter Domain List2 = SLD_WASHER_SCRAPER
+    Interface Region List1 = sld_bushing_1 sld_washer_scraper Shadow
+    Interface Region List2 = sld_bushing_1 sld_washer_scraper
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_BUSHING_2_SLD_SHAFT
+Boundary List1 = SOLID SOLID_SLD_BUSHING_2_SLD_SHAFT Side 1
+Boundary List2 = SOLID SOLID_SLD_BUSHING_2_SLD_SHAFT Side 2
+    Filter Domain List1 = SLD_BUSHING_2
+    Filter Domain List2 = SLD_SHAFT
+    Interface Region List1 = if_contact_shaft_bushing_2 Shadow,sld_bushing_2 sld_shaft Shadow
+    Interface Region List2 = if_contact_shaft_bushing_2,sld_bushing_2 sld_shaft
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_BUSHING_2_SLD_CAP
+Boundary List1 = SOLID SOLID_SLD_BUSHING_2_SLD_CAP Side 1
+Boundary List2 = SOLID SOLID_SLD_BUSHING_2_SLD_CAP Side 2
+    Filter Domain List1 = SLD_BUSHING_2
+    Filter Domain List2 = SLD_CAP
+    Interface Region List1 = sld_bushing_2 sld_cap Shadow
+    Interface Region List2 = sld_bushing_2 sld_cap
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_GAS_1_SLD_WASHER
+Boundary List1 = SOLID SOLID_SLD_GAS_1_SLD_WASHER Side 1
+Boundary List2 = SOLID SOLID_SLD_GAS_1_SLD_WASHER Side 2
+    Filter Domain List1 = SLD_GAS_1
+    Filter Domain List2 = SLD_WASHER
+    Interface Region List1 = sld_gas_1 sld_shaft Shadow
+    Interface Region List2 = sld_cap_bushing sld_washer
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_BUSHING_2_SLD_RETAINER_BUSHING_2
+Boundary List1 = SOLID SOLID_SLD_BUSHING_2_SLD_RETAINER_BUSHING_2 Side 1
+Boundary List2 = SOLID SOLID_SLD_BUSHING_2_SLD_RETAINER_BUSHING_2 Side 2
+    Filter Domain List1 = SLD_BUSHING_2
+    Filter Domain List2 = SLD_RETAINER_BUSHING_2
+    Interface Region List1 = sld_bushing_2 sld_retainer_bushing_2 Shadow
+    Interface Region List2 = sld_bushing_2 sld_retainer_bushing_2
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_CAP_SLD_RETAINER_BUSHING_2
+Boundary List1 = SOLID SOLID_SLD_CAP_SLD_RETAINER_BUSHING_2 Side 1
+Boundary List2 = SOLID SOLID_SLD_CAP_SLD_RETAINER_BUSHING_2 Side 2
+    Filter Domain List1 = SLD_CAP
+    Filter Domain List2 = SLD_RETAINER_BUSHING_2
+    Interface Region List1 = sld_cap sld_retainer_bushing_2 Shadow
+    Interface Region List2 = sld_cap sld_retainer_bushing_2
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_CAP_BUSHING_SLD_SHAFT
+Boundary List1 = SOLID SOLID_SLD_CAP_BUSHING_SLD_SHAFT Side 1
+Boundary List2 = SOLID SOLID_SLD_CAP_BUSHING_SLD_SHAFT Side 2
+    Filter Domain List1 = SLD_CAP_BUSHING
+    Filter Domain List2 = SLD_SHAFT
+    Interface Region List1 = if_contact_shaft_cap_bushing Shadow,sld_cap_bushing sld_shaft Shadow
+    Interface Region List2 = if_contact_shaft_cap_bushing,sld_cap_bushing sld_shaft
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_CAP_BUSHING_SLD_RETAINER_BUSHING_1
+Boundary List1 = SOLID SOLID_SLD_CAP_BUSHING_SLD_RETAINER_BUSHING_1 Side 1
+Boundary List2 = SOLID SOLID_SLD_CAP_BUSHING_SLD_RETAINER_BUSHING_1 Side 2
+    Filter Domain List1 = SLD_CAP_BUSHING
+    Filter Domain List2 = SLD_RETAINER_BUSHING_1
+    Interface Region List1 = sld_cap_bushing sld_retainer_bushing_1 Shadow
+    Interface Region List2 = sld_cap_bushing sld_retainer_bushing_1
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_CAP_BUSHING_SLD_WASHER
+Boundary List1 = SOLID SOLID_SLD_CAP_BUSHING_SLD_WASHER Side 1
+Boundary List2 = SOLID SOLID_SLD_CAP_BUSHING_SLD_WASHER Side 2
+    Filter Domain List1 = SLD_CAP_BUSHING
+    Filter Domain List2 = SLD_WASHER
+    Interface Region List1 = sld_cap_bushing sld_washer Shadow
+    Interface Region List2 = sld_cap_bushing sld_washer
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_DC_MOTOR_1_SLD_DC_MOTOR_2
+Boundary List1 = SOLID SOLID_SLD_DC_MOTOR_1_SLD_DC_MOTOR_2 Side 1
+Boundary List2 = SOLID SOLID_SLD_DC_MOTOR_1_SLD_DC_MOTOR_2 Side 2
+    Filter Domain List1 = SLD_DC_MOTOR_1
+    Filter Domain List2 = SLD_DC_MOTOR_2
+    Interface Region List1 = sld_dc_motor 362
+    Interface Region List2 = sld_dc_motor 362 Shadow
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_DC_MOTOR_1_SLD_HOUSING_ACTUATOR
+Boundary List1 = SOLID SOLID_SLD_DC_MOTOR_1_SLD_HOUSING_ACTUATOR Side 1
+Boundary List2 = SOLID SOLID_SLD_DC_MOTOR_1_SLD_HOUSING_ACTUATOR Side 2
+    Filter Domain List1 = SLD_DC_MOTOR_1
+    Filter Domain List2 = SLD_HOUSING_ACTUATOR
+    Interface Region List1 = sld_housing_actuator 375
+    Interface Region List2 = sld_housing_actuator 375 Shadow
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_DC_MOTOR_2_SLD_DC_MOTOR_3
+Boundary List1 = SOLID SOLID_SLD_DC_MOTOR_2_SLD_DC_MOTOR_3 Side 1
+Boundary List2 = SOLID SOLID_SLD_DC_MOTOR_2_SLD_DC_MOTOR_3 Side 2
+    Filter Domain List1 = SLD_DC_MOTOR_2
+    Filter Domain List2 = SLD_DC_MOTOR_3
+    Interface Region List1 = sld_dc_motor 363 Shadow
+    Interface Region List2 = sld_dc_motor 363
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_DC_MOTOR_2_SLD_HOUSING_ACTUATOR
+Boundary List1 = SOLID SOLID_SLD_DC_MOTOR_2_SLD_HOUSING_ACTUATOR Side 1
+Boundary List2 = SOLID SOLID_SLD_DC_MOTOR_2_SLD_HOUSING_ACTUATOR Side 2
+    Filter Domain List1 = SLD_DC_MOTOR_2
+    Filter Domain List2 = SLD_HOUSING_ACTUATOR
+    Interface Region List1 = sld_dc_motor sld_housing_actuator Shadow
+    Interface Region List2 = sld_dc_motor sld_housing_actuator
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_GAS_1_SLD_SHAFT
+Boundary List1 = SOLID SOLID_SLD_GAS_1_SLD_SHAFT Side 1
+Boundary List2 = SOLID SOLID_SLD_GAS_1_SLD_SHAFT Side 2
+    Filter Domain List1 = SLD_GAS_1
+    Filter Domain List2 = SLD_SHAFT
+    Interface Region List1 = sld_gas_1 sld_shaft Shadow
+    Interface Region List2 = sld_gas_1 sld_shaft
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_HOUSING_ACTUATOR_SLD_VALVE_PLATE
+Boundary List1 = SOLID SOLID_SLD_HOUSING_ACTUATOR_SLD_VALVE_PLATE Side 1
+Boundary List2 = SOLID SOLID_SLD_HOUSING_ACTUATOR_SLD_VALVE_PLATE Side 2
+    Filter Domain List1 = SLD_HOUSING_ACTUATOR
+    Filter Domain List2 = SLD_VALVE_PLATE
+    Interface Region List1 = sld_housing_actuator sld_sealing_fkm Shadow
+    Interface Region List2 = sld_gas_1 sld_valve_plate
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_GAS_1_SLD_VALVE_PLATE
+Boundary List1 = SOLID SOLID_SLD_GAS_1_SLD_VALVE_PLATE Side 1
+Boundary List2 = SOLID SOLID_SLD_GAS_1_SLD_VALVE_PLATE Side 2
+    Filter Domain List1 = SLD_GAS_1
+    Filter Domain List2 = SLD_VALVE_PLATE
+    Interface Region List1 = sld_gas_1 sld_valve_plate Shadow
+    Interface Region List2 = sld_gas_1 sld_valve_plate
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_HOUSING_ACTUATOR_SLD_SENSOR_COVER
+Boundary List1 = SOLID SOLID_SLD_HOUSING_ACTUATOR_SLD_SENSOR_COVER Side 1
+Boundary List2 = SOLID SOLID_SLD_HOUSING_ACTUATOR_SLD_SENSOR_COVER Side 2
+    Filter Domain List1 = SLD_HOUSING_ACTUATOR
+    Filter Domain List2 = SLD_SENSOR_COVER
+    Interface Region List1 = Primitive 2D DC,Primitive 2D DD
+    Interface Region List2 = Primitive 2D BU,Primitive 2D BV
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_HOUSING_ACTUATOR_SLD_INSULATION_GLIMMER_BOTTOM
+Boundary List1 = SOLID SOLID_SLD_HOUSING_ACTUATOR_SLD_INSULATION_GLIMMER_BOTTOM Side 1
+Boundary List2 = SOLID SOLID_SLD_HOUSING_ACTUATOR_SLD_INSULATION_GLIMMER_BOTTOM Side 2
+    Filter Domain List1 = SLD_HOUSING_ACTUATOR
+    Filter Domain List2 = SLD_INSULATION_GLIMMER_BOTTOM
+    Interface Region List1 = sld_housing_actuator sld_insulation_glimmer_bottom Shadow
+    Interface Region List2 = sld_housing_actuator sld_insulation_glimmer_bottom
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_HOUSING_ACTUATOR_SLD_INSULATION_GLIMMER_TOP
+Boundary List1 = SOLID SOLID_SLD_HOUSING_ACTUATOR_SLD_INSULATION_GLIMMER_TOP Side 1
+Boundary List2 = SOLID SOLID_SLD_HOUSING_ACTUATOR_SLD_INSULATION_GLIMMER_TOP Side 2
+    Filter Domain List1 = SLD_HOUSING_ACTUATOR
+    Filter Domain List2 = SLD_INSULATION_GLIMMER_TOP
+    Interface Region List1 = sld_housing_actuator sld_insulation_glimmer_top Shadow
+    Interface Region List2 = sld_housing_actuator sld_insulation_glimmer_top
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_HOUSING_ACTUATOR_SLD_INSULATION_STEEL
+Boundary List1 = SOLID SOLID_SLD_HOUSING_ACTUATOR_SLD_INSULATION_STEEL Side 1
+Boundary List2 = SOLID SOLID_SLD_HOUSING_ACTUATOR_SLD_INSULATION_STEEL Side 2
+    Filter Domain List1 = SLD_HOUSING_ACTUATOR
+    Filter Domain List2 = SLD_INSULATION_STEEL
+    Interface Region List1 = sld_housing_actuator sld_insulation_steel Shadow
+    Interface Region List2 = sld_housing_actuator sld_insulation_steel
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_HOUSING_ACTUATOR_SLD_ROLLED_BUSHING_STEEL
+Boundary List1 = SOLID SOLID_SLD_HOUSING_ACTUATOR_SLD_ROLLED_BUSHING_STEEL Side 1
+Boundary List2 = SOLID SOLID_SLD_HOUSING_ACTUATOR_SLD_ROLLED_BUSHING_STEEL Side 2
+    Filter Domain List1 = SLD_HOUSING_ACTUATOR
+    Filter Domain List2 = SLD_ROLLED_BUSHING_STEEL
+    Interface Region List1 = sld_housing_actuator sld_rolled_bushing_steel Shadow
+    Interface Region List2 = sld_housing_actuator sld_rolled_bushing_steel
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_HOUSING_ACTUATOR_SLD_SCREW_1
+Boundary List1 = SOLID SOLID_SLD_HOUSING_ACTUATOR_SLD_SCREW_1 Side 1
+Boundary List2 = SOLID SOLID_SLD_HOUSING_ACTUATOR_SLD_SCREW_1 Side 2
+    Filter Domain List1 = SLD_HOUSING_ACTUATOR
+    Filter Domain List2 = SLD_SCREW_1
+    Interface Region List1 = sld_housing_actuator sld_screw_4 Shadow
+    Interface Region List2 = sld_housing_actuator sld_screw_4
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_HOUSING_ACTUATOR_SLD_SCREW_2
+Boundary List1 = SOLID SOLID_SLD_HOUSING_ACTUATOR_SLD_SCREW_2 Side 1
+Boundary List2 = SOLID SOLID_SLD_HOUSING_ACTUATOR_SLD_SCREW_2 Side 2
+    Filter Domain List1 = SLD_HOUSING_ACTUATOR
+    Filter Domain List2 = SLD_SCREW_2
+    Interface Region List1 = sld_housing_actuator sld_screw_6 Shadow
+    Interface Region List2 = sld_housing_actuator sld_screw_6
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_HOUSING_ACTUATOR_SLD_SCREW_3
+Boundary List1 = SOLID SOLID_SLD_HOUSING_ACTUATOR_SLD_SCREW_3 Side 1
+Boundary List2 = SOLID SOLID_SLD_HOUSING_ACTUATOR_SLD_SCREW_3 Side 2
+    Filter Domain List1 = SLD_HOUSING_ACTUATOR
+    Filter Domain List2 = SLD_SCREW_3
+    Interface Region List1 = sld_housing_actuator sld_screw_7 Shadow
+    Interface Region List2 = sld_housing_actuator sld_screw_7
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_HOUSING_ACTUATOR_SLD_SEALING_FKM
+Boundary List1 = SOLID SOLID_SLD_HOUSING_ACTUATOR_SLD_SEALING_FKM Side 1
+Boundary List2 = SOLID SOLID_SLD_HOUSING_ACTUATOR_SLD_SEALING_FKM Side 2
+    Filter Domain List1 = SLD_HOUSING_ACTUATOR
+    Filter Domain List2 = SLD_SEALING_FKM
+    Interface Region List1 = sld_housing_actuator sld_sealing_fkm Shadow
+    Interface Region List2 = sld_housing_actuator sld_sealing_fkm
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_LEVER_2_SLD_WASHER
+Boundary List1 = SOLID SOLID_SLD_LEVER_2_SLD_WASHER Side 1
+Boundary List2 = SOLID SOLID_SLD_LEVER_2_SLD_WASHER Side 2
+    Filter Domain List1 = SLD_LEVER_2
+    Filter Domain List2 = SLD_WASHER
+    Interface Region List1 = sld_lever_2 sld_retainer_spring Shadow
+    Interface Region List2 = Primitive 2D AK,Primitive 2D AL,Primitive 2D AM,Primitive 2D AN,Primitive 2D AO,Primitive 2D AP,Primitive 2D AQ,Primitive 2D AR
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_HOUSING_TUBE_MACHINED_SLD_PIN_GAS_1
+Boundary List1 = SOLID SOLID_SLD_HOUSING_TUBE_MACHINED_SLD_PIN_GAS_1 Side 1
+Boundary List2 = SOLID SOLID_SLD_HOUSING_TUBE_MACHINED_SLD_PIN_GAS_1 Side 2
+    Filter Domain List1 = SLD_HOUSING_TUBE_MACHINED
+    Filter Domain List2 = SLD_PIN_GAS_1
+    Interface Region List1 = sld_housing_tube_machined sld_pin_gas_1 Shadow
+    Interface Region List2 = sld_housing_tube_machined sld_pin_gas_1
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_HOUSING_TUBE_MACHINED_SLD_PIN_GAS_2
+Boundary List1 = SOLID SOLID_SLD_HOUSING_TUBE_MACHINED_SLD_PIN_GAS_2 Side 1
+Boundary List2 = SOLID SOLID_SLD_HOUSING_TUBE_MACHINED_SLD_PIN_GAS_2 Side 2
+    Filter Domain List1 = SLD_HOUSING_TUBE_MACHINED
+    Filter Domain List2 = SLD_PIN_GAS_2
+    Interface Region List1 = sld_housing_tube_machined sld_pin_gas_2 Shadow
+    Interface Region List2 = sld_housing_tube_machined sld_pin_gas_2
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_HOUSING_TUBE_MACHINED_SLD_RETAINER_BUSHING_1
+Boundary List1 = SOLID SOLID_SLD_HOUSING_TUBE_MACHINED_SLD_RETAINER_BUSHING_1 Side 1
+Boundary List2 = SOLID SOLID_SLD_HOUSING_TUBE_MACHINED_SLD_RETAINER_BUSHING_1 Side 2
+    Filter Domain List1 = SLD_HOUSING_TUBE_MACHINED
+    Filter Domain List2 = SLD_RETAINER_BUSHING_1
+    Interface Region List1 = sld_housing_tube_machined sld_retainer_bushing_1 Shadow
+    Interface Region List2 = sld_housing_tube_machined sld_retainer_bushing_1
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_HOUSING_TUBE_MACHINED_SLD_RETAINER_BUSHING_2
+Boundary List1 = SOLID SOLID_SLD_HOUSING_TUBE_MACHINED_SLD_RETAINER_BUSHING_2 Side 1
+Boundary List2 = SOLID SOLID_SLD_HOUSING_TUBE_MACHINED_SLD_RETAINER_BUSHING_2 Side 2
+    Filter Domain List1 = SLD_HOUSING_TUBE_MACHINED
+    Filter Domain List2 = SLD_RETAINER_BUSHING_2
+    Interface Region List1 = sld_housing_tube_machined sld_retainer_bushing_2 Shadow
+    Interface Region List2 = sld_housing_tube_machined sld_retainer_bushing_2
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_INSULATION_GLIMMER_BOTTOM_SLD_INSULATION_STEEL
+Boundary List1 = SOLID SOLID_SLD_INSULATION_GLIMMER_BOTTOM_SLD_INSULATION_STEEL Side 1
+Boundary List2 = SOLID SOLID_SLD_INSULATION_GLIMMER_BOTTOM_SLD_INSULATION_STEEL Side 2
+    Filter Domain List1 = SLD_INSULATION_GLIMMER_BOTTOM
+    Filter Domain List2 = SLD_INSULATION_STEEL
+    Interface Region List1 = sld_insulation_glimmer_bottom sld_insulation_steel Shadow
+    Interface Region List2 = sld_insulation_glimmer_bottom sld_insulation_steel
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_INSULATION_GLIMMER_TOP_SLD_INSULATION_STEEL
+Boundary List1 = SOLID SOLID_SLD_INSULATION_GLIMMER_TOP_SLD_INSULATION_STEEL Side 1
+Boundary List2 = SOLID SOLID_SLD_INSULATION_GLIMMER_TOP_SLD_INSULATION_STEEL Side 2
+    Filter Domain List1 = SLD_INSULATION_GLIMMER_TOP
+    Filter Domain List2 = SLD_INSULATION_STEEL
+    Interface Region List1 = sld_insulation_glimmer_top sld_insulation_steel Shadow
+    Interface Region List2 = sld_insulation_glimmer_top sld_insulation_steel
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_LEVER_1_SLD_WASHER
+Boundary List1 = SOLID SOLID_SLD_LEVER_1_SLD_WASHER Side 1
+Boundary List2 = SOLID SOLID_SLD_LEVER_1_SLD_WASHER Side 2
+    Filter Domain List1 = SLD_LEVER_1
+    Filter Domain List2 = SLD_WASHER
+    Interface Region List1 = Primitive 2D BB,Primitive 2D BC,Primitive 2D BD,Primitive 2D BE,Primitive 2D BF,Primitive 2D BG,Primitive 2D BH,Primitive 2D BI
+    Interface Region List2 = Primitive 2D AK,Primitive 2D AL,Primitive 2D AM,Primitive 2D AN,Primitive 2D AO,Primitive 2D AP,Primitive 2D AQ,Primitive 2D AR
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_LEVER_1_SLD_LEVER_2
+Boundary List1 = SOLID SOLID_SLD_LEVER_1_SLD_LEVER_2 Side 1
+Boundary List2 = SOLID SOLID_SLD_LEVER_1_SLD_LEVER_2 Side 2
+    Filter Domain List1 = SLD_LEVER_1
+    Filter Domain List2 = SLD_LEVER_2
+    Interface Region List1 = sld_lever_1 sld_lever_2 Shadow
+    Interface Region List2 = sld_lever_1 sld_lever_2
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_LEVER_1_SLD_SHAFT
+Boundary List1 = SOLID SOLID_SLD_LEVER_1_SLD_SHAFT Side 1
+Boundary List2 = SOLID SOLID_SLD_LEVER_1_SLD_SHAFT Side 2
+    Filter Domain List1 = SLD_LEVER_1
+    Filter Domain List2 = SLD_SHAFT
+    Interface Region List1 = sld_lever_1 sld_shaft Shadow
+    Interface Region List2 = sld_lever_1 sld_shaft
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_LEVER_2_SLD_RETAINER_SPRING
+Boundary List1 = SOLID SOLID_SLD_LEVER_2_SLD_RETAINER_SPRING Side 1
+Boundary List2 = SOLID SOLID_SLD_LEVER_2_SLD_RETAINER_SPRING Side 2
+    Filter Domain List1 = SLD_LEVER_2
+    Filter Domain List2 = SLD_RETAINER_SPRING
+    Interface Region List1 = sld_lever_2 sld_retainer_spring Shadow
+    Interface Region List2 = sld_lever_2 sld_retainer_spring
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_SEALING_FKM_SLD_VALVE_PLATE
+Boundary List1 = SOLID SOLID_SLD_SEALING_FKM_SLD_VALVE_PLATE Side 1
+Boundary List2 = SOLID SOLID_SLD_SEALING_FKM_SLD_VALVE_PLATE Side 2
+    Filter Domain List1 = SLD_SEALING_FKM
+    Filter Domain List2 = SLD_VALVE_PLATE
+    Interface Region List1 = sld_sealing_fkm sld_sealing_steel Shadow
+    Interface Region List2 = sld_pin_gas_2 sld_valve_plate
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_LEVER_2_SLD_SHAFT_OUTPUT
+Boundary List1 = SOLID SOLID_SLD_LEVER_2_SLD_SHAFT_OUTPUT Side 1
+Boundary List2 = SOLID SOLID_SLD_LEVER_2_SLD_SHAFT_OUTPUT Side 2
+    Filter Domain List1 = SLD_LEVER_2
+    Filter Domain List2 = SLD_SHAFT_OUTPUT
+    Interface Region List1 = sld_lever_2 sld_shaft_output Shadow
+    Interface Region List2 = sld_lever_2 sld_shaft_output
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_NUT_1_SLD_SCREW_2
+Boundary List1 = SOLID SOLID_SLD_NUT_1_SLD_SCREW_2 Side 1
+Boundary List2 = SOLID SOLID_SLD_NUT_1_SLD_SCREW_2 Side 2
+    Filter Domain List1 = SLD_NUT_1
+    Filter Domain List2 = SLD_SCREW_2
+    Interface Region List1 = sld_nut_1 sld_screw_6 Shadow
+    Interface Region List2 = sld_nut_1 sld_screw_6
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_NUT_2_SLD_SCREW_1
+Boundary List1 = SOLID SOLID_SLD_NUT_2_SLD_SCREW_1 Side 1
+Boundary List2 = SOLID SOLID_SLD_NUT_2_SLD_SCREW_1 Side 2
+    Filter Domain List1 = SLD_NUT_2
+    Filter Domain List2 = SLD_SCREW_1
+    Interface Region List1 = sld_nut_2 sld_screw_4 Shadow
+    Interface Region List2 = sld_nut_2 sld_screw_4
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_NUT_3_SLD_SCREW_3
+Boundary List1 = SOLID SOLID_SLD_NUT_3_SLD_SCREW_3 Side 1
+Boundary List2 = SOLID SOLID_SLD_NUT_3_SLD_SCREW_3 Side 2
+    Filter Domain List1 = SLD_NUT_3
+    Filter Domain List2 = SLD_SCREW_3
+    Interface Region List1 = sld_nut_3 sld_screw_7 Shadow
+    Interface Region List2 = sld_nut_3 sld_screw_7
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_PIN_GAS_2_SLD_VALVE_PLATE
+Boundary List1 = SOLID SOLID_SLD_PIN_GAS_2_SLD_VALVE_PLATE Side 1
+Boundary List2 = SOLID SOLID_SLD_PIN_GAS_2_SLD_VALVE_PLATE Side 2
+    Filter Domain List1 = SLD_PIN_GAS_2
+    Filter Domain List2 = SLD_VALVE_PLATE
+    Interface Region List1 = sld_pin_gas_2 sld_valve_plate Shadow
+    Interface Region List2 = sld_pin_gas_2 sld_valve_plate
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_RETAINER_SLD_SHAFT_OUTPUT
+Boundary List1 = SOLID SOLID_SLD_RETAINER_SLD_SHAFT_OUTPUT Side 1
+Boundary List2 = SOLID SOLID_SLD_RETAINER_SLD_SHAFT_OUTPUT Side 2
+    Filter Domain List1 = SLD_RETAINER
+    Filter Domain List2 = SLD_SHAFT_OUTPUT
+    Interface Region List1 = sld_retainer sld_shaft_output Shadow
+    Interface Region List2 = sld_retainer sld_shaft_output
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_RETAINER_SPRING_SLD_SHAFT_OUTPUT
+Boundary List1 = SOLID SOLID_SLD_RETAINER_SPRING_SLD_SHAFT_OUTPUT Side 1
+Boundary List2 = SOLID SOLID_SLD_RETAINER_SPRING_SLD_SHAFT_OUTPUT Side 2
+    Filter Domain List1 = SLD_RETAINER_SPRING
+    Filter Domain List2 = SLD_SHAFT_OUTPUT
+    Interface Region List1 = Primitive 2D DA,Primitive 2D DB
+    Interface Region List2 = Primitive 2D BS,Primitive 2D BT
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_ROLLED_BUSHING_PTFE_SLD_ROLLED_BUSHING_STEEL
+Boundary List1 = SOLID SOLID_SLD_ROLLED_BUSHING_PTFE_SLD_ROLLED_BUSHING_STEEL Side 1
+Boundary List2 = SOLID SOLID_SLD_ROLLED_BUSHING_PTFE_SLD_ROLLED_BUSHING_STEEL Side 2
+    Filter Domain List1 = SLD_ROLLED_BUSHING_PTFE
+    Filter Domain List2 = SLD_ROLLED_BUSHING_STEEL
+    Interface Region List1 = sld_rolled_bushing_ptfe sld_rolled_bushing_steel Shadow
+    Interface Region List2 = sld_rolled_bushing_ptfe sld_rolled_bushing_steel
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_ROLLED_BUSHING_PTFE_SLD_SHAFT_OUTPUT
+Boundary List1 = SOLID SOLID_SLD_ROLLED_BUSHING_PTFE_SLD_SHAFT_OUTPUT Side 1
+Boundary List2 = SOLID SOLID_SLD_ROLLED_BUSHING_PTFE_SLD_SHAFT_OUTPUT Side 2
+    Filter Domain List1 = SLD_ROLLED_BUSHING_PTFE
+    Filter Domain List2 = SLD_SHAFT_OUTPUT
+    Interface Region List1 = sld_rolled_bushing_ptfe sld_shaft_output Shadow
+    Interface Region List2 = sld_rolled_bushing_ptfe sld_shaft_output
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_SEALING_FKM_SLD_SEALING_STEEL
+Boundary List1 = SOLID SOLID_SLD_SEALING_FKM_SLD_SEALING_STEEL Side 1
+Boundary List2 = SOLID SOLID_SLD_SEALING_FKM_SLD_SEALING_STEEL Side 2
+    Filter Domain List1 = SLD_SEALING_FKM
+    Filter Domain List2 = SLD_SEALING_STEEL
+    Interface Region List1 = sld_sealing_fkm sld_sealing_steel Shadow
+    Interface Region List2 = sld_sealing_fkm sld_sealing_steel
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_SHAFT_SLD_WASHER_SCRAPER
+Boundary List1 = SOLID SOLID_SLD_SHAFT_SLD_WASHER_SCRAPER Side 1
+Boundary List2 = SOLID SOLID_SLD_SHAFT_SLD_WASHER_SCRAPER Side 2
+    Filter Domain List1 = SLD_SHAFT
+    Filter Domain List2 = SLD_WASHER_SCRAPER
+    Interface Region List1 = if_contact_shaft_washer_scraper Shadow,sld_shaft sld_washer_scraper 730 Shadow,sld_shaft sld_washer_scraper Shadow
+    Interface Region List2 = if_contact_shaft_washer_scraper,sld_shaft sld_washer_scraper,sld_shaft sld_washer_scraper 730
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_SEALING_FKM_SLD_SHAFT_OUTPUT
+Boundary List1 = SOLID SOLID_SLD_SEALING_FKM_SLD_SHAFT_OUTPUT Side 1
+Boundary List2 = SOLID SOLID_SLD_SEALING_FKM_SLD_SHAFT_OUTPUT Side 2
+    Filter Domain List1 = SLD_SEALING_FKM
+    Filter Domain List2 = SLD_SHAFT_OUTPUT
+    Interface Region List1 = sld_sealing_fkm sld_shaft_output Shadow
+    Interface Region List2 = sld_sealing_fkm sld_shaft_output
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_SHAFT_SLD_VALVE_PLATE
+Boundary List1 = SOLID SOLID_SLD_SHAFT_SLD_VALVE_PLATE Side 1
+Boundary List2 = SOLID SOLID_SLD_SHAFT_SLD_VALVE_PLATE Side 2
+    Filter Domain List1 = SLD_SHAFT
+    Filter Domain List2 = SLD_VALVE_PLATE
+    Interface Region List1 = Primitive 2D BO,Primitive 2D BP
+    Interface Region List2 = Primitive 2D AX,Primitive 2D AY
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_SHAFT_SLD_WASHER_SCRAPER
+Boundary List1 = SOLID SOLID_SLD_SHAFT_SLD_WASHER_SCRAPER Side 1
+Boundary List2 = SOLID SOLID_SLD_SHAFT_SLD_WASHER_SCRAPER Side 2
+    Filter Domain List1 = SLD_SHAFT
+    Filter Domain List2 = SLD_WASHER_SCRAPER
+    Interface Region List1 = if_contact_shaft_washer_scraper Shadow,sld_shaft sld_washer_scraper 730 Shadow,sld_shaft sld_washer_scraper Shadow
+    Interface Region List2 = if_contact_shaft_washer_scraper,sld_shaft sld_washer_scraper,sld_shaft sld_washer_scraper 730
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_AIR_01_SLD_BEARING_BALL_1
+Boundary List1 = SOLID SOLID_SLD_AIR_01_SLD_BEARING_BALL_1 Side 1
+Boundary List2 = SOLID SOLID_SLD_AIR_01_SLD_BEARING_BALL_1 Side 2
+    Filter Domain List1 = SLD_AIR_01
+    Filter Domain List2 = SLD_BEARING_BALL_1
+    Interface Region List1 = sld_bearing_ball_1
+    Interface Region List2 = sld_bearing_ball_1 Shadow
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_AIR_01_SLD_BEARING_BALL_10
+Boundary List1 = SOLID SOLID_SLD_AIR_01_SLD_BEARING_BALL_10 Side 1
+Boundary List2 = SOLID SOLID_SLD_AIR_01_SLD_BEARING_BALL_10 Side 2
+    Filter Domain List1 = SLD_AIR_01
+    Filter Domain List2 = SLD_BEARING_BALL_10
+    Interface Region List1 = sld_bearing_ball_10
+    Interface Region List2 = sld_bearing_ball_10 Shadow
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_AIR_01_SLD_BEARING_BALL_11
+Boundary List1 = SOLID SOLID_SLD_AIR_01_SLD_BEARING_BALL_11 Side 1
+Boundary List2 = SOLID SOLID_SLD_AIR_01_SLD_BEARING_BALL_11 Side 2
+    Filter Domain List1 = SLD_AIR_01
+    Filter Domain List2 = SLD_BEARING_BALL_11
+    Interface Region List1 = sld_bearing_ball_11
+    Interface Region List2 = sld_bearing_ball_11 Shadow
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_AIR_01_SLD_BEARING_BALL_12
+Boundary List1 = SOLID SOLID_SLD_AIR_01_SLD_BEARING_BALL_12 Side 1
+Boundary List2 = SOLID SOLID_SLD_AIR_01_SLD_BEARING_BALL_12 Side 2
+    Filter Domain List1 = SLD_AIR_01
+    Filter Domain List2 = SLD_BEARING_BALL_12
+    Interface Region List1 = sld_bearing_ball_12
+    Interface Region List2 = sld_bearing_ball_12 Shadow
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_AIR_01_SLD_LEVER_2
+Boundary List1 = SOLID SOLID_SLD_AIR_01_SLD_LEVER_2 Side 1
+Boundary List2 = SOLID SOLID_SLD_AIR_01_SLD_LEVER_2 Side 2
+    Filter Domain List1 = SLD_AIR_01
+    Filter Domain List2 = SLD_LEVER_2
+    Interface Region List1 = sld_bearing_ball_9
+    Interface Region List2 = Primitive 2D W,Primitive 2D X,Primitive 2D Y
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_AIR_01_SLD_BEARING_BALL_13
+Boundary List1 = SOLID SOLID_SLD_AIR_01_SLD_BEARING_BALL_13 Side 1
+Boundary List2 = SOLID SOLID_SLD_AIR_01_SLD_BEARING_BALL_13 Side 2
+    Filter Domain List1 = SLD_AIR_01
+    Filter Domain List2 = SLD_BEARING_BALL_13
+    Interface Region List1 = sld_bearing_ball_13
+    Interface Region List2 = sld_bearing_ball_13 Shadow
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_AIR_01_SLD_BEARING_BALL_14
+Boundary List1 = SOLID SOLID_SLD_AIR_01_SLD_BEARING_BALL_14 Side 1
+Boundary List2 = SOLID SOLID_SLD_AIR_01_SLD_BEARING_BALL_14 Side 2
+    Filter Domain List1 = SLD_AIR_01
+    Filter Domain List2 = SLD_BEARING_BALL_14
+    Interface Region List1 = sld_bearing_ball_14
+    Interface Region List2 = sld_bearing_ball_14 Shadow
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_AIR_01_SLD_BEARING_BALL_2
+Boundary List1 = SOLID SOLID_SLD_AIR_01_SLD_BEARING_BALL_2 Side 1
+Boundary List2 = SOLID SOLID_SLD_AIR_01_SLD_BEARING_BALL_2 Side 2
+    Filter Domain List1 = SLD_AIR_01
+    Filter Domain List2 = SLD_BEARING_BALL_2
+    Interface Region List1 = sld_bearing_ball_2
+    Interface Region List2 = sld_bearing_ball_2 Shadow
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_AIR_01_SLD_BEARING_BALL_3
+Boundary List1 = SOLID SOLID_SLD_AIR_01_SLD_BEARING_BALL_3 Side 1
+Boundary List2 = SOLID SOLID_SLD_AIR_01_SLD_BEARING_BALL_3 Side 2
+    Filter Domain List1 = SLD_AIR_01
+    Filter Domain List2 = SLD_BEARING_BALL_3
+    Interface Region List1 = sld_bearing_ball_3
+    Interface Region List2 = sld_bearing_ball_3 Shadow
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_AIR_01_SLD_BEARING_BALL_4
+Boundary List1 = SOLID SOLID_SLD_AIR_01_SLD_BEARING_BALL_4 Side 1
+Boundary List2 = SOLID SOLID_SLD_AIR_01_SLD_BEARING_BALL_4 Side 2
+    Filter Domain List1 = SLD_AIR_01
+    Filter Domain List2 = SLD_BEARING_BALL_4
+    Interface Region List1 = sld_bearing_ball_4
+    Interface Region List2 = sld_bearing_ball_4 Shadow
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_AIR_01_SLD_BEARING_BALL_5
+Boundary List1 = SOLID SOLID_SLD_AIR_01_SLD_BEARING_BALL_5 Side 1
+Boundary List2 = SOLID SOLID_SLD_AIR_01_SLD_BEARING_BALL_5 Side 2
+    Filter Domain List1 = SLD_AIR_01
+    Filter Domain List2 = SLD_BEARING_BALL_5
+    Interface Region List1 = sld_bearing_ball_5
+    Interface Region List2 = sld_bearing_ball_5 Shadow
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_AIR_01_SLD_BEARING_BALL_6
+Boundary List1 = SOLID SOLID_SLD_AIR_01_SLD_BEARING_BALL_6 Side 1
+Boundary List2 = SOLID SOLID_SLD_AIR_01_SLD_BEARING_BALL_6 Side 2
+    Filter Domain List1 = SLD_AIR_01
+    Filter Domain List2 = SLD_BEARING_BALL_6
+    Interface Region List1 = sld_bearing_ball_6
+    Interface Region List2 = sld_bearing_ball_6 Shadow
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_AIR_01_SLD_BEARING_BALL_7
+Boundary List1 = SOLID SOLID_SLD_AIR_01_SLD_BEARING_BALL_7 Side 1
+Boundary List2 = SOLID SOLID_SLD_AIR_01_SLD_BEARING_BALL_7 Side 2
+    Filter Domain List1 = SLD_AIR_01
+    Filter Domain List2 = SLD_BEARING_BALL_7
+    Interface Region List1 = sld_bearing_ball_7
+    Interface Region List2 = sld_bearing_ball_7 Shadow
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_AIR_01_SLD_BEARING_BALL_8
+Boundary List1 = SOLID SOLID_SLD_AIR_01_SLD_BEARING_BALL_8 Side 1
+Boundary List2 = SOLID SOLID_SLD_AIR_01_SLD_BEARING_BALL_8 Side 2
+    Filter Domain List1 = SLD_AIR_01
+    Filter Domain List2 = SLD_BEARING_BALL_8
+    Interface Region List1 = sld_bearing_ball_8
+    Interface Region List2 = sld_bearing_ball_8 Shadow
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_AIR_01_SLD_BEARING_BALL_9
+Boundary List1 = SOLID SOLID_SLD_AIR_01_SLD_BEARING_BALL_9 Side 1
+Boundary List2 = SOLID SOLID_SLD_AIR_01_SLD_BEARING_BALL_9 Side 2
+    Filter Domain List1 = SLD_AIR_01
+    Filter Domain List2 = SLD_BEARING_BALL_9
+    Interface Region List1 = sld_bearing_ball_9
+    Interface Region List2 = sld_bearing_ball_9 Shadow
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_AIR_03_SLD_SHAFT_OUTPUT
+Boundary List1 = SOLID SOLID_SLD_AIR_03_SLD_SHAFT_OUTPUT Side 1
+Boundary List2 = SOLID SOLID_SLD_AIR_03_SLD_SHAFT_OUTPUT Side 2
+    Filter Domain List1 = SLD_AIR_03
+    Filter Domain List2 = SLD_SHAFT_OUTPUT
+    Interface Region List1 = sld_insulation_glimmer_top 338
+    Interface Region List2 = sld_shaft_output 367 Shadow
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_AIR_01_SLD_BEARING_HOUSING
+Boundary List1 = SOLID SOLID_SLD_AIR_01_SLD_BEARING_HOUSING Side 1
+Boundary List2 = SOLID SOLID_SLD_AIR_01_SLD_BEARING_HOUSING Side 2
+    Filter Domain List1 = SLD_AIR_01
+    Filter Domain List2 = SLD_BEARING_HOUSING
+    Interface Region List1 = sld_bearing_housing 409
+    Interface Region List2 = sld_bearing_housing 409 Shadow
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_AIR_02_SLD_BEARING_HOUSING
+Boundary List1 = SOLID SOLID_SLD_AIR_02_SLD_BEARING_HOUSING Side 1
+Boundary List2 = SOLID SOLID_SLD_AIR_02_SLD_BEARING_HOUSING Side 2
+    Filter Domain List1 = SLD_AIR_02
+    Filter Domain List2 = SLD_BEARING_HOUSING
+    Interface Region List1 = sld_bearing_housing 382
+    Interface Region List2 = sld_bearing_housing 382 Shadow
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_AIR_02_SLD_HOUSING_ACTUATOR
+Boundary List1 = SOLID SOLID_SLD_AIR_02_SLD_HOUSING_ACTUATOR Side 1
+Boundary List2 = SOLID SOLID_SLD_AIR_02_SLD_HOUSING_ACTUATOR Side 2
+    Filter Domain List1 = SLD_AIR_02
+    Filter Domain List2 = SLD_HOUSING_ACTUATOR
+    Interface Region List1 = sld_housing_actuator 376
+    Interface Region List2 = sld_housing_actuator 376 Shadow
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_AIR_02_SLD_ROLLED_BUSHING_PTFE
+Boundary List1 = SOLID SOLID_SLD_AIR_02_SLD_ROLLED_BUSHING_PTFE Side 1
+Boundary List2 = SOLID SOLID_SLD_AIR_02_SLD_ROLLED_BUSHING_PTFE Side 2
+    Filter Domain List1 = SLD_AIR_02
+    Filter Domain List2 = SLD_ROLLED_BUSHING_PTFE
+    Interface Region List1 = sld_rolled_bushing_ptfe
+    Interface Region List2 = sld_rolled_bushing_ptfe Shadow
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_AIR_02_SLD_ROLLED_BUSHING_STEEL
+Boundary List1 = SOLID SOLID_SLD_AIR_02_SLD_ROLLED_BUSHING_STEEL Side 1
+Boundary List2 = SOLID SOLID_SLD_AIR_02_SLD_ROLLED_BUSHING_STEEL Side 2
+    Filter Domain List1 = SLD_AIR_02
+    Filter Domain List2 = SLD_ROLLED_BUSHING_STEEL
+    Interface Region List1 = sld_rolled_bushing_steel
+    Interface Region List2 = sld_rolled_bushing_steel Shadow
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_AIR_02_SLD_SHAFT_OUTPUT
+Boundary List1 = SOLID SOLID_SLD_AIR_02_SLD_SHAFT_OUTPUT Side 1
+Boundary List2 = SOLID SOLID_SLD_AIR_02_SLD_SHAFT_OUTPUT Side 2
+    Filter Domain List1 = SLD_AIR_02
+    Filter Domain List2 = SLD_SHAFT_OUTPUT
+    Interface Region List1 = sld_shaft_output 367
+    Interface Region List2 = sld_shaft_output 367 Shadow
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_AIR_03_SLD_BRACKET_FLANGE
+Boundary List1 = SOLID SOLID_SLD_AIR_03_SLD_BRACKET_FLANGE Side 1
+Boundary List2 = SOLID SOLID_SLD_AIR_03_SLD_BRACKET_FLANGE Side 2
+    Filter Domain List1 = SLD_AIR_03
+    Filter Domain List2 = SLD_BRACKET_FLANGE
+    Interface Region List1 = sld_bracket_flange 357
+    Interface Region List2 = sld_bracket_flange 357 Shadow
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_AIR_03_SLD_HOUSING_ACTUATOR
+Boundary List1 = SOLID SOLID_SLD_AIR_03_SLD_HOUSING_ACTUATOR Side 1
+Boundary List2 = SOLID SOLID_SLD_AIR_03_SLD_HOUSING_ACTUATOR Side 2
+    Filter Domain List1 = SLD_AIR_03
+    Filter Domain List2 = SLD_HOUSING_ACTUATOR
+    Interface Region List1 = sld_housing_actuator 379
+    Interface Region List2 = sld_housing_actuator 379 Shadow
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_AIR_03_SLD_INSULATION_GLIMMER_BOTTOM
+Boundary List1 = SOLID SOLID_SLD_AIR_03_SLD_INSULATION_GLIMMER_BOTTOM Side 1
+Boundary List2 = SOLID SOLID_SLD_AIR_03_SLD_INSULATION_GLIMMER_BOTTOM Side 2
+    Filter Domain List1 = SLD_AIR_03
+    Filter Domain List2 = SLD_INSULATION_GLIMMER_BOTTOM
+    Interface Region List1 = sld_insulation_glimmer_bottom 335
+    Interface Region List2 = sld_insulation_glimmer_bottom 335 Shadow
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_AIR_03_SLD_INSULATION_GLIMMER_TOP
+Boundary List1 = SOLID SOLID_SLD_AIR_03_SLD_INSULATION_GLIMMER_TOP Side 1
+Boundary List2 = SOLID SOLID_SLD_AIR_03_SLD_INSULATION_GLIMMER_TOP Side 2
+    Filter Domain List1 = SLD_AIR_03
+    Filter Domain List2 = SLD_INSULATION_GLIMMER_TOP
+    Interface Region List1 = sld_insulation_glimmer_top 338
+    Interface Region List2 = sld_insulation_glimmer_top 338 Shadow
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_AIR_04_SLD_SHAFT_OUTPUT
+Boundary List1 = SOLID SOLID_SLD_AIR_04_SLD_SHAFT_OUTPUT Side 1
+Boundary List2 = SOLID SOLID_SLD_AIR_04_SLD_SHAFT_OUTPUT Side 2
+    Filter Domain List1 = SLD_AIR_04
+    Filter Domain List2 = SLD_SHAFT_OUTPUT
+    Interface Region List1 = sld_screw_6 349
+    Interface Region List2 = Primitive 2D AS,Primitive 2D AT
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_AIR_03_SLD_INSULATION_STEEL
+Boundary List1 = SOLID SOLID_SLD_AIR_03_SLD_INSULATION_STEEL Side 1
+Boundary List2 = SOLID SOLID_SLD_AIR_03_SLD_INSULATION_STEEL Side 2
+    Filter Domain List1 = SLD_AIR_03
+    Filter Domain List2 = SLD_INSULATION_STEEL
+    Interface Region List1 = sld_insulation_steel 341
+    Interface Region List2 = sld_insulation_steel 341 Shadow
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_AIR_03_SLD_NUT_2
+Boundary List1 = SOLID SOLID_SLD_AIR_03_SLD_NUT_2 Side 1
+Boundary List2 = SOLID SOLID_SLD_AIR_03_SLD_NUT_2 Side 2
+    Filter Domain List1 = SLD_AIR_03
+    Filter Domain List2 = SLD_NUT_2
+    Interface Region List1 = sld_nut_2 371
+    Interface Region List2 = sld_nut_2 371 Shadow
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_AIR_03_SLD_SCREW_1
+Boundary List1 = SOLID SOLID_SLD_AIR_03_SLD_SCREW_1 Side 1
+Boundary List2 = SOLID SOLID_SLD_AIR_03_SLD_SCREW_1 Side 2
+    Filter Domain List1 = SLD_AIR_03
+    Filter Domain List2 = SLD_SCREW_1
+    Interface Region List1 = sld_screw_4 348
+    Interface Region List2 = sld_screw_4 348 Shadow
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_AIR_04_SLD_BRACKET_FLANGE
+Boundary List1 = SOLID SOLID_SLD_AIR_04_SLD_BRACKET_FLANGE Side 1
+Boundary List2 = SOLID SOLID_SLD_AIR_04_SLD_BRACKET_FLANGE Side 2
+    Filter Domain List1 = SLD_AIR_04
+    Filter Domain List2 = SLD_BRACKET_FLANGE
+    Interface Region List1 = sld_bracket_flange 358
+    Interface Region List2 = sld_bracket_flange 358 Shadow
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_AIR_04_SLD_HOUSING_ACTUATOR
+Boundary List1 = SOLID SOLID_SLD_AIR_04_SLD_HOUSING_ACTUATOR Side 1
+Boundary List2 = SOLID SOLID_SLD_AIR_04_SLD_HOUSING_ACTUATOR Side 2
+    Filter Domain List1 = SLD_AIR_04
+    Filter Domain List2 = SLD_HOUSING_ACTUATOR
+    Interface Region List1 = sld_housing_actuator 378
+    Interface Region List2 = sld_housing_actuator 378 Shadow
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_AIR_04_SLD_INSULATION_GLIMMER_BOTTOM
+Boundary List1 = SOLID SOLID_SLD_AIR_04_SLD_INSULATION_GLIMMER_BOTTOM Side 1
+Boundary List2 = SOLID SOLID_SLD_AIR_04_SLD_INSULATION_GLIMMER_BOTTOM Side 2
+    Filter Domain List1 = SLD_AIR_04
+    Filter Domain List2 = SLD_INSULATION_GLIMMER_BOTTOM
+    Interface Region List1 = sld_insulation_glimmer_bottom 332
+    Interface Region List2 = sld_insulation_glimmer_bottom 332 Shadow
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_AIR_04_SLD_INSULATION_GLIMMER_TOP
+Boundary List1 = SOLID SOLID_SLD_AIR_04_SLD_INSULATION_GLIMMER_TOP Side 1
+Boundary List2 = SOLID SOLID_SLD_AIR_04_SLD_INSULATION_GLIMMER_TOP Side 2
+    Filter Domain List1 = SLD_AIR_04
+    Filter Domain List2 = SLD_INSULATION_GLIMMER_TOP
+    Interface Region List1 = sld_insulation_glimmer_top 336
+    Interface Region List2 = sld_insulation_glimmer_top 336 Shadow
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_AIR_04_SLD_INSULATION_STEEL
+Boundary List1 = SOLID SOLID_SLD_AIR_04_SLD_INSULATION_STEEL Side 1
+Boundary List2 = SOLID SOLID_SLD_AIR_04_SLD_INSULATION_STEEL Side 2
+    Filter Domain List1 = SLD_AIR_04
+    Filter Domain List2 = SLD_INSULATION_STEEL
+    Interface Region List1 = sld_insulation_steel 339
+    Interface Region List2 = sld_insulation_steel 339 Shadow
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_AIR_04_SLD_NUT_1
+Boundary List1 = SOLID SOLID_SLD_AIR_04_SLD_NUT_1 Side 1
+Boundary List2 = SOLID SOLID_SLD_AIR_04_SLD_NUT_1 Side 2
+    Filter Domain List1 = SLD_AIR_04
+    Filter Domain List2 = SLD_NUT_1
+    Interface Region List1 = sld_nut_1 370
+    Interface Region List2 = sld_nut_1 370 Shadow
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_AIR_04_SLD_SCREW_2
+Boundary List1 = SOLID SOLID_SLD_AIR_04_SLD_SCREW_2 Side 1
+Boundary List2 = SOLID SOLID_SLD_AIR_04_SLD_SCREW_2 Side 2
+    Filter Domain List1 = SLD_AIR_04
+    Filter Domain List2 = SLD_SCREW_2
+    Interface Region List1 = sld_screw_6 349
+    Interface Region List2 = sld_screw_6 349 Shadow
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_AIR_06_SLD_SCREW_3
+Boundary List1 = SOLID SOLID_SLD_AIR_06_SLD_SCREW_3 Side 1
+Boundary List2 = SOLID SOLID_SLD_AIR_06_SLD_SCREW_3 Side 2
+    Filter Domain List1 = SLD_AIR_06
+    Filter Domain List2 = SLD_SCREW_3
+    Interface Region List1 = sld_retainer
+    Interface Region List2 = sld_screw_7 350 Shadow
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_AIR_05_SLD_BRACKET_FLANGE
+Boundary List1 = SOLID SOLID_SLD_AIR_05_SLD_BRACKET_FLANGE Side 1
+Boundary List2 = SOLID SOLID_SLD_AIR_05_SLD_BRACKET_FLANGE Side 2
+    Filter Domain List1 = SLD_AIR_05
+    Filter Domain List2 = SLD_BRACKET_FLANGE
+    Interface Region List1 = sld_bracket_flange
+    Interface Region List2 = sld_bracket_flange Shadow
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_AIR_05_SLD_HOUSING_ACTUATOR
+Boundary List1 = SOLID SOLID_SLD_AIR_05_SLD_HOUSING_ACTUATOR Side 1
+Boundary List2 = SOLID SOLID_SLD_AIR_05_SLD_HOUSING_ACTUATOR Side 2
+    Filter Domain List1 = SLD_AIR_05
+    Filter Domain List2 = SLD_HOUSING_ACTUATOR
+    Interface Region List1 = sld_housing_actuator 380
+    Interface Region List2 = sld_housing_actuator 380 Shadow
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_AIR_05_SLD_INSULATION_GLIMMER_BOTTOM
+Boundary List1 = SOLID SOLID_SLD_AIR_05_SLD_INSULATION_GLIMMER_BOTTOM Side 1
+Boundary List2 = SOLID SOLID_SLD_AIR_05_SLD_INSULATION_GLIMMER_BOTTOM Side 2
+    Filter Domain List1 = SLD_AIR_05
+    Filter Domain List2 = SLD_INSULATION_GLIMMER_BOTTOM
+    Interface Region List1 = sld_insulation_glimmer_bottom 334
+    Interface Region List2 = sld_insulation_glimmer_bottom 334 Shadow
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_AIR_05_SLD_INSULATION_GLIMMER_TOP
+Boundary List1 = SOLID SOLID_SLD_AIR_05_SLD_INSULATION_GLIMMER_TOP Side 1
+Boundary List2 = SOLID SOLID_SLD_AIR_05_SLD_INSULATION_GLIMMER_TOP Side 2
+    Filter Domain List1 = SLD_AIR_05
+    Filter Domain List2 = SLD_INSULATION_GLIMMER_TOP
+    Interface Region List1 = sld_insulation_glimmer_top 337
+    Interface Region List2 = sld_insulation_glimmer_top 337 Shadow
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_AIR_05_SLD_INSULATION_STEEL
+Boundary List1 = SOLID SOLID_SLD_AIR_05_SLD_INSULATION_STEEL Side 1
+Boundary List2 = SOLID SOLID_SLD_AIR_05_SLD_INSULATION_STEEL Side 2
+    Filter Domain List1 = SLD_AIR_05
+    Filter Domain List2 = SLD_INSULATION_STEEL
+    Interface Region List1 = sld_insulation_steel 340
+    Interface Region List2 = sld_insulation_steel 340 Shadow
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_AIR_05_SLD_NUT_3
+Boundary List1 = SOLID SOLID_SLD_AIR_05_SLD_NUT_3 Side 1
+Boundary List2 = SOLID SOLID_SLD_AIR_05_SLD_NUT_3 Side 2
+    Filter Domain List1 = SLD_AIR_05
+    Filter Domain List2 = SLD_NUT_3
+    Interface Region List1 = sld_nut_3 372
+    Interface Region List2 = sld_nut_3 372 Shadow
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_AIR_05_SLD_SCREW_3
+Boundary List1 = SOLID SOLID_SLD_AIR_05_SLD_SCREW_3 Side 1
+Boundary List2 = SOLID SOLID_SLD_AIR_05_SLD_SCREW_3 Side 2
+    Filter Domain List1 = SLD_AIR_05
+    Filter Domain List2 = SLD_SCREW_3
+    Interface Region List1 = sld_screw_7 350
+    Interface Region List2 = sld_screw_7 350 Shadow
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_AIR_06_SLD_BEARING_HOUSING
+Boundary List1 = SOLID SOLID_SLD_AIR_06_SLD_BEARING_HOUSING Side 1
+Boundary List2 = SOLID SOLID_SLD_AIR_06_SLD_BEARING_HOUSING Side 2
+    Filter Domain List1 = SLD_AIR_06
+    Filter Domain List2 = SLD_BEARING_HOUSING
+    Interface Region List1 = sld_bearing_housing
+    Interface Region List2 = sld_bearing_housing Shadow
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_AIR_06_SLD_HOUSING_ACTUATOR
+Boundary List1 = SOLID SOLID_SLD_AIR_06_SLD_HOUSING_ACTUATOR Side 1
+Boundary List2 = SOLID SOLID_SLD_AIR_06_SLD_HOUSING_ACTUATOR Side 2
+    Filter Domain List1 = SLD_AIR_06
+    Filter Domain List2 = SLD_HOUSING_ACTUATOR
+    Interface Region List1 = sld_housing_actuator 381
+    Interface Region List2 = sld_housing_actuator 381 Shadow
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_AIR_06_SLD_RETAINER
+Boundary List1 = SOLID SOLID_SLD_AIR_06_SLD_RETAINER Side 1
+Boundary List2 = SOLID SOLID_SLD_AIR_06_SLD_RETAINER Side 2
+    Filter Domain List1 = SLD_AIR_06
+    Filter Domain List2 = SLD_RETAINER
+    Interface Region List1 = sld_retainer
+    Interface Region List2 = sld_retainer Shadow
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_AIR_SENSOR_COVER_2_SLD_SHAFT_OUTPUT
+Boundary List1 = SOLID SOLID_SLD_AIR_SENSOR_COVER_2_SLD_SHAFT_OUTPUT Side 1
+Boundary List2 = SOLID SOLID_SLD_AIR_SENSOR_COVER_2_SLD_SHAFT_OUTPUT Side 2
+    Filter Domain List1 = SLD_AIR_SENSOR_COVER_2
+    Filter Domain List2 = SLD_SHAFT_OUTPUT
+    Interface Region List1 = Primitive 2D AU,Primitive 2D AV,Primitive 2D AW
+    Interface Region List2 = sld_shaft_output 368 Shadow
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_AIR_06_SLD_SEALING_FKM
+Boundary List1 = SOLID SOLID_SLD_AIR_06_SLD_SEALING_FKM Side 1
+Boundary List2 = SOLID SOLID_SLD_AIR_06_SLD_SEALING_FKM Side 2
+    Filter Domain List1 = SLD_AIR_06
+    Filter Domain List2 = SLD_SEALING_FKM
+    Interface Region List1 = sld_sealing_fkm
+    Interface Region List2 = sld_sealing_fkm Shadow
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_AIR_06_SLD_SHAFT_OUTPUT
+Boundary List1 = SOLID SOLID_SLD_AIR_06_SLD_SHAFT_OUTPUT Side 1
+Boundary List2 = SOLID SOLID_SLD_AIR_06_SLD_SHAFT_OUTPUT Side 2
+    Filter Domain List1 = SLD_AIR_06
+    Filter Domain List2 = SLD_SHAFT_OUTPUT
+    Interface Region List1 = sld_shaft_output 368
+    Interface Region List2 = sld_shaft_output 368 Shadow
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_AIR_07_SLD_HOUSING_ACTUATOR
+Boundary List1 = SOLID SOLID_SLD_AIR_07_SLD_HOUSING_ACTUATOR Side 1
+Boundary List2 = SOLID SOLID_SLD_AIR_07_SLD_HOUSING_ACTUATOR Side 2
+    Filter Domain List1 = SLD_AIR_07
+    Filter Domain List2 = SLD_HOUSING_ACTUATOR
+    Interface Region List1 = sld_housing_actuator
+    Interface Region List2 = sld_housing_actuator Shadow
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_AIR_07_SLD_SENSOR_COVER
+Boundary List1 = SOLID SOLID_SLD_AIR_07_SLD_SENSOR_COVER Side 1
+Boundary List2 = SOLID SOLID_SLD_AIR_07_SLD_SENSOR_COVER Side 2
+    Filter Domain List1 = SLD_AIR_07
+    Filter Domain List2 = SLD_SENSOR_COVER
+    Interface Region List1 = sld_sensor_cover 356
+    Interface Region List2 = sld_sensor_cover 356 Shadow
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_AIR_08_SLD_BUSHING_2
+Boundary List1 = SOLID SOLID_SLD_AIR_08_SLD_BUSHING_2 Side 1
+Boundary List2 = SOLID SOLID_SLD_AIR_08_SLD_BUSHING_2 Side 2
+    Filter Domain List1 = SLD_AIR_08
+    Filter Domain List2 = SLD_BUSHING_2
+    Interface Region List1 = sld_bushing_2 360
+    Interface Region List2 = sld_bushing_2 360 Shadow
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_AIR_08_SLD_CAP
+Boundary List1 = SOLID SOLID_SLD_AIR_08_SLD_CAP Side 1
+Boundary List2 = SOLID SOLID_SLD_AIR_08_SLD_CAP Side 2
+    Filter Domain List1 = SLD_AIR_08
+    Filter Domain List2 = SLD_CAP
+    Interface Region List1 = sld_cap
+    Interface Region List2 = sld_cap Shadow
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_AIR_08_SLD_SHAFT
+Boundary List1 = SOLID SOLID_SLD_AIR_08_SLD_SHAFT Side 1
+Boundary List2 = SOLID SOLID_SLD_AIR_08_SLD_SHAFT Side 2
+    Filter Domain List1 = SLD_AIR_08
+    Filter Domain List2 = SLD_SHAFT
+    Interface Region List1 = sld_shaft 365
+    Interface Region List2 = sld_shaft 365 Shadow
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_AIR_SENSOR_COVER_1_SLD_SENSOR_COVER
+Boundary List1 = SOLID SOLID_SLD_AIR_SENSOR_COVER_1_SLD_SENSOR_COVER Side 1
+Boundary List2 = SOLID SOLID_SLD_AIR_SENSOR_COVER_1_SLD_SENSOR_COVER Side 2
+    Filter Domain List1 = SLD_AIR_SENSOR_COVER_1
+    Filter Domain List2 = SLD_SENSOR_COVER
+    Interface Region List1 = sld_sensor_cover 353
+    Interface Region List2 = sld_sensor_cover 353 Shadow
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_AIR_SENSOR_COVER_1_SLD_AIR_SENSOR_COVER_2
+Boundary List1 = SOLID SOLID_SLD_AIR_SENSOR_COVER_1_SLD_AIR_SENSOR_COVER_2 Side 1
+Boundary List2 = SOLID SOLID_SLD_AIR_SENSOR_COVER_1_SLD_AIR_SENSOR_COVER_2 Side 2
+    Filter Domain List1 = SLD_AIR_SENSOR_COVER_1
+    Filter Domain List2 = SLD_AIR_SENSOR_COVER_2
+    Interface Region List1 = srf_sensor_cover_cap 11,srf_sensor_cover_cap 15,srf_sensor_cover_cap 3,srf_sensor_cover_cap 5,srf_sensor_cover_cap 6,srf_sensor_cover_cap 9
+    Interface Region List2 = srf_sensor_cover_cap 11 Shadow,srf_sensor_cover_cap 15 Shadow,srf_sensor_cover_cap 3 Shadow,srf_sensor_cover_cap 5 Shadow,srf_sensor_cover_cap 6 Shadow,srf_sensor_cover_cap 9 Shadow
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_AIR_SENSOR_COVER_2_SLD_HOUSING_ACTUATOR
+Boundary List1 = SOLID SOLID_SLD_AIR_SENSOR_COVER_2_SLD_HOUSING_ACTUATOR Side 1
+Boundary List2 = SOLID SOLID_SLD_AIR_SENSOR_COVER_2_SLD_HOUSING_ACTUATOR Side 2
+    Filter Domain List1 = SLD_AIR_SENSOR_COVER_2
+    Filter Domain List2 = SLD_HOUSING_ACTUATOR
+    Interface Region List1 = Primitive 2D AU,Primitive 2D AV,Primitive 2D AW
+    Interface Region List2 = Primitive 2D BJ,Primitive 2D BK,Primitive 2D BL
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_BEARING_BALL_1_SLD_SHAFT_OUTPUT
+Boundary List1 = SOLID SOLID_SLD_BEARING_BALL_1_SLD_SHAFT_OUTPUT Side 1
+Boundary List2 = SOLID SOLID_SLD_BEARING_BALL_1_SLD_SHAFT_OUTPUT Side 2
+    Filter Domain List1 = SLD_BEARING_BALL_1
+    Filter Domain List2 = SLD_SHAFT_OUTPUT
+    Interface Region List1 = Primitive 2D DE,Primitive 2D DF
+    Interface Region List2 = sld_shaft_output 366 Shadow
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_AIR_SENSOR_COVER_2_SLD_DC_MOTOR_2
+Boundary List1 = SOLID SOLID_SLD_AIR_SENSOR_COVER_2_SLD_DC_MOTOR_2 Side 1
+Boundary List2 = SOLID SOLID_SLD_AIR_SENSOR_COVER_2_SLD_DC_MOTOR_2 Side 2
+    Filter Domain List1 = SLD_AIR_SENSOR_COVER_2
+    Filter Domain List2 = SLD_DC_MOTOR_2
+    Interface Region List1 = sld_dc_motor
+    Interface Region List2 = sld_dc_motor Shadow
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_AIR_SENSOR_COVER_2_SLD_ROLLED_BUSHING_PTFE
+Boundary List1 = SOLID SOLID_SLD_AIR_SENSOR_COVER_2_SLD_ROLLED_BUSHING_PTFE Side 1
+Boundary List2 = SOLID SOLID_SLD_AIR_SENSOR_COVER_2_SLD_ROLLED_BUSHING_PTFE Side 2
+    Filter Domain List1 = SLD_AIR_SENSOR_COVER_2
+    Filter Domain List2 = SLD_ROLLED_BUSHING_PTFE
+    Interface Region List1 = sld_rolled_bushing_ptfe 347
+    Interface Region List2 = sld_rolled_bushing_ptfe 347 Shadow
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_AIR_SENSOR_COVER_2_SLD_ROLLED_BUSHING_STEEL
+Boundary List1 = SOLID SOLID_SLD_AIR_SENSOR_COVER_2_SLD_ROLLED_BUSHING_STEEL Side 1
+Boundary List2 = SOLID SOLID_SLD_AIR_SENSOR_COVER_2_SLD_ROLLED_BUSHING_STEEL Side 2
+    Filter Domain List1 = SLD_AIR_SENSOR_COVER_2
+    Filter Domain List2 = SLD_ROLLED_BUSHING_STEEL
+    Interface Region List1 = sld_rolled_bushing_steel 369
+    Interface Region List2 = sld_rolled_bushing_steel 369 Shadow
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_AIR_SENSOR_COVER_2_SLD_SENSOR_COVER
+Boundary List1 = SOLID SOLID_SLD_AIR_SENSOR_COVER_2_SLD_SENSOR_COVER Side 1
+Boundary List2 = SOLID SOLID_SLD_AIR_SENSOR_COVER_2_SLD_SENSOR_COVER Side 2
+    Filter Domain List1 = SLD_AIR_SENSOR_COVER_2
+    Filter Domain List2 = SLD_SENSOR_COVER
+    Interface Region List1 = sld_sensor_cover 352
+    Interface Region List2 = sld_sensor_cover 352 Shadow
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_AIR_SENSOR_COVER_2_SLD_SHAFT_OUTPUT
+Boundary List1 = SOLID SOLID_SLD_AIR_SENSOR_COVER_2_SLD_SHAFT_OUTPUT Side 1
+Boundary List2 = SOLID SOLID_SLD_AIR_SENSOR_COVER_2_SLD_SHAFT_OUTPUT Side 2
+    Filter Domain List1 = SLD_AIR_SENSOR_COVER_2
+    Filter Domain List2 = SLD_SHAFT_OUTPUT
+    Interface Region List1 = sld_shaft_output 366
+    Interface Region List2 = sld_shaft_output 366 Shadow
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_AIR_SENSOR_COVER_2_SLD_AIR_SENSOR_COVER_3
+Boundary List1 = SOLID SOLID_SLD_AIR_SENSOR_COVER_2_SLD_AIR_SENSOR_COVER_3 Side 1
+Boundary List2 = SOLID SOLID_SLD_AIR_SENSOR_COVER_2_SLD_AIR_SENSOR_COVER_3 Side 2
+    Filter Domain List1 = SLD_AIR_SENSOR_COVER_2
+    Filter Domain List2 = SLD_AIR_SENSOR_COVER_3
+    Interface Region List1 = srf_sensor_cover_cap 10 Shadow,srf_sensor_cover_cap 12 Shadow,srf_sensor_cover_cap 13 Shadow
+    Interface Region List2 = srf_sensor_cover_cap 10,srf_sensor_cover_cap 12,srf_sensor_cover_cap 13
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_AIR_SENSOR_COVER_2_SLD_AIR_SENSOR_COVER_4
+Boundary List1 = SOLID SOLID_SLD_AIR_SENSOR_COVER_2_SLD_AIR_SENSOR_COVER_4 Side 1
+Boundary List2 = SOLID SOLID_SLD_AIR_SENSOR_COVER_2_SLD_AIR_SENSOR_COVER_4 Side 2
+    Filter Domain List1 = SLD_AIR_SENSOR_COVER_2
+    Filter Domain List2 = SLD_AIR_SENSOR_COVER_4
+    Interface Region List1 = srf_sensor_cover_cap 14 Shadow,srf_sensor_cover_cap 2 Shadow,srf_sensor_cover_cap 4 Shadow,srf_sensor_cover_cap 7 Shadow,srf_sensor_cover_cap 8 Shadow
+    Interface Region List2 = srf_sensor_cover_cap 14,srf_sensor_cover_cap 2,srf_sensor_cover_cap 4,srf_sensor_cover_cap 7,srf_sensor_cover_cap 8
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_AIR_SENSOR_COVER_3_SLD_SENSOR_COVER
+Boundary List1 = SOLID SOLID_SLD_AIR_SENSOR_COVER_3_SLD_SENSOR_COVER Side 1
+Boundary List2 = SOLID SOLID_SLD_AIR_SENSOR_COVER_3_SLD_SENSOR_COVER Side 2
+    Filter Domain List1 = SLD_AIR_SENSOR_COVER_3
+    Filter Domain List2 = SLD_SENSOR_COVER
+    Interface Region List1 = sld_sensor_cover
+    Interface Region List2 = sld_sensor_cover Shadow
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_AIR_SENSOR_COVER_4_SLD_SENSOR_COVER
+Boundary List1 = SOLID SOLID_SLD_AIR_SENSOR_COVER_4_SLD_SENSOR_COVER Side 1
+Boundary List2 = SOLID SOLID_SLD_AIR_SENSOR_COVER_4_SLD_SENSOR_COVER Side 2
+    Filter Domain List1 = SLD_AIR_SENSOR_COVER_4
+    Filter Domain List2 = SLD_SENSOR_COVER
+    Interface Region List1 = sld_sensor_cover 354
+    Interface Region List2 = sld_sensor_cover 354 Shadow
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_BEARING_BALL_1_SLD_BEARING_HOUSING
+Boundary List1 = SOLID SOLID_SLD_BEARING_BALL_1_SLD_BEARING_HOUSING Side 1
+Boundary List2 = SOLID SOLID_SLD_BEARING_BALL_1_SLD_BEARING_HOUSING Side 2
+    Filter Domain List1 = SLD_BEARING_BALL_1
+    Filter Domain List2 = SLD_BEARING_HOUSING
+    Interface Region List1 = Primitive 2D DE,Primitive 2D DF
+    Interface Region List2 = Primitive 2D BW,Primitive 2D BX
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_BEARING_BALL_6_SLD_INSULATION_GLIMMER_BOTTOM
+Boundary List1 = SOLID SOLID_SLD_BEARING_BALL_6_SLD_INSULATION_GLIMMER_BOTTOM Side 1
+Boundary List2 = SOLID SOLID_SLD_BEARING_BALL_6_SLD_INSULATION_GLIMMER_BOTTOM Side 2
+    Filter Domain List1 = SLD_BEARING_BALL_6
+    Filter Domain List2 = SLD_INSULATION_GLIMMER_BOTTOM
+    Interface Region List1 = Primitive 2D DO,Primitive 2D DP
+    Interface Region List2 = sld_insulation_glimmer_bottom Shadow
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_BEARING_BALL_10_SLD_BEARING_HOUSING
+Boundary List1 = SOLID SOLID_SLD_BEARING_BALL_10_SLD_BEARING_HOUSING Side 1
+Boundary List2 = SOLID SOLID_SLD_BEARING_BALL_10_SLD_BEARING_HOUSING Side 2
+    Filter Domain List1 = SLD_BEARING_BALL_10
+    Filter Domain List2 = SLD_BEARING_HOUSING
+    Interface Region List1 = Primitive 2D DW,Primitive 2D DX
+    Interface Region List2 = Primitive 2D CO,Primitive 2D CP
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_BEARING_BALL_11_SLD_BEARING_HOUSING
+Boundary List1 = SOLID SOLID_SLD_BEARING_BALL_11_SLD_BEARING_HOUSING Side 1
+Boundary List2 = SOLID SOLID_SLD_BEARING_BALL_11_SLD_BEARING_HOUSING Side 2
+    Filter Domain List1 = SLD_BEARING_BALL_11
+    Filter Domain List2 = SLD_BEARING_HOUSING
+    Interface Region List1 = Primitive 2D DY,Primitive 2D DZ
+    Interface Region List2 = Primitive 2D CQ,Primitive 2D CR
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_BEARING_BALL_12_SLD_BEARING_HOUSING
+Boundary List1 = SOLID SOLID_SLD_BEARING_BALL_12_SLD_BEARING_HOUSING Side 1
+Boundary List2 = SOLID SOLID_SLD_BEARING_BALL_12_SLD_BEARING_HOUSING Side 2
+    Filter Domain List1 = SLD_BEARING_BALL_12
+    Filter Domain List2 = SLD_BEARING_HOUSING
+    Interface Region List1 = Primitive 2D EA,Primitive 2D EB
+    Interface Region List2 = Primitive 2D CS,Primitive 2D CT
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_BEARING_BALL_13_SLD_BEARING_HOUSING
+Boundary List1 = SOLID SOLID_SLD_BEARING_BALL_13_SLD_BEARING_HOUSING Side 1
+Boundary List2 = SOLID SOLID_SLD_BEARING_BALL_13_SLD_BEARING_HOUSING Side 2
+    Filter Domain List1 = SLD_BEARING_BALL_13
+    Filter Domain List2 = SLD_BEARING_HOUSING
+    Interface Region List1 = Primitive 2D EC,Primitive 2D ED
+    Interface Region List2 = Primitive 2D CU,Primitive 2D CV
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_BEARING_BALL_14_SLD_BEARING_HOUSING
+Boundary List1 = SOLID SOLID_SLD_BEARING_BALL_14_SLD_BEARING_HOUSING Side 1
+Boundary List2 = SOLID SOLID_SLD_BEARING_BALL_14_SLD_BEARING_HOUSING Side 2
+    Filter Domain List1 = SLD_BEARING_BALL_14
+    Filter Domain List2 = SLD_BEARING_HOUSING
+    Interface Region List1 = Primitive 2D EE,Primitive 2D EF
+    Interface Region List2 = Primitive 2D CW,Primitive 2D CX
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_BEARING_BALL_2_SLD_BEARING_HOUSING
+Boundary List1 = SOLID SOLID_SLD_BEARING_BALL_2_SLD_BEARING_HOUSING Side 1
+Boundary List2 = SOLID SOLID_SLD_BEARING_BALL_2_SLD_BEARING_HOUSING Side 2
+    Filter Domain List1 = SLD_BEARING_BALL_2
+    Filter Domain List2 = SLD_BEARING_HOUSING
+    Interface Region List1 = Primitive 2D DG,Primitive 2D DH
+    Interface Region List2 = Primitive 2D BY,Primitive 2D BZ
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_BEARING_BALL_3_SLD_BEARING_HOUSING
+Boundary List1 = SOLID SOLID_SLD_BEARING_BALL_3_SLD_BEARING_HOUSING Side 1
+Boundary List2 = SOLID SOLID_SLD_BEARING_BALL_3_SLD_BEARING_HOUSING Side 2
+    Filter Domain List1 = SLD_BEARING_BALL_3
+    Filter Domain List2 = SLD_BEARING_HOUSING
+    Interface Region List1 = Primitive 2D DI,Primitive 2D DJ
+    Interface Region List2 = Primitive 2D CA,Primitive 2D CB
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_BEARING_BALL_4_SLD_BEARING_HOUSING
+Boundary List1 = SOLID SOLID_SLD_BEARING_BALL_4_SLD_BEARING_HOUSING Side 1
+Boundary List2 = SOLID SOLID_SLD_BEARING_BALL_4_SLD_BEARING_HOUSING Side 2
+    Filter Domain List1 = SLD_BEARING_BALL_4
+    Filter Domain List2 = SLD_BEARING_HOUSING
+    Interface Region List1 = Primitive 2D DK,Primitive 2D DL
+    Interface Region List2 = Primitive 2D CC,Primitive 2D CD
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_BEARING_BALL_5_SLD_BEARING_HOUSING
+Boundary List1 = SOLID SOLID_SLD_BEARING_BALL_5_SLD_BEARING_HOUSING Side 1
+Boundary List2 = SOLID SOLID_SLD_BEARING_BALL_5_SLD_BEARING_HOUSING Side 2
+    Filter Domain List1 = SLD_BEARING_BALL_5
+    Filter Domain List2 = SLD_BEARING_HOUSING
+    Interface Region List1 = Primitive 2D DM,Primitive 2D DN
+    Interface Region List2 = Primitive 2D CE,Primitive 2D CF
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_BEARING_BALL_6_SLD_BEARING_HOUSING
+Boundary List1 = SOLID SOLID_SLD_BEARING_BALL_6_SLD_BEARING_HOUSING Side 1
+Boundary List2 = SOLID SOLID_SLD_BEARING_BALL_6_SLD_BEARING_HOUSING Side 2
+    Filter Domain List1 = SLD_BEARING_BALL_6
+    Filter Domain List2 = SLD_BEARING_HOUSING
+    Interface Region List1 = Primitive 2D DO,Primitive 2D DP
+    Interface Region List2 = Primitive 2D CG,Primitive 2D CH
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_BRACKET_2_SLD_SHAFT_OUTPUT
+Boundary List1 = SOLID SOLID_SLD_BRACKET_2_SLD_SHAFT_OUTPUT Side 1
+Boundary List2 = SOLID SOLID_SLD_BRACKET_2_SLD_SHAFT_OUTPUT Side 2
+    Filter Domain List1 = SLD_BRACKET_2
+    Filter Domain List2 = SLD_SHAFT_OUTPUT
+    Interface Region List1 = sld_bracket_2 sld_insulation_glimmer_bottom Shadow
+    Interface Region List2 = sld_bearing_housing sld_shaft_output
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_BEARING_BALL_7_SLD_BEARING_HOUSING
+Boundary List1 = SOLID SOLID_SLD_BEARING_BALL_7_SLD_BEARING_HOUSING Side 1
+Boundary List2 = SOLID SOLID_SLD_BEARING_BALL_7_SLD_BEARING_HOUSING Side 2
+    Filter Domain List1 = SLD_BEARING_BALL_7
+    Filter Domain List2 = SLD_BEARING_HOUSING
+    Interface Region List1 = Primitive 2D DQ,Primitive 2D DR
+    Interface Region List2 = Primitive 2D CI,Primitive 2D CJ
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_BEARING_BALL_8_SLD_BEARING_HOUSING
+Boundary List1 = SOLID SOLID_SLD_BEARING_BALL_8_SLD_BEARING_HOUSING Side 1
+Boundary List2 = SOLID SOLID_SLD_BEARING_BALL_8_SLD_BEARING_HOUSING Side 2
+    Filter Domain List1 = SLD_BEARING_BALL_8
+    Filter Domain List2 = SLD_BEARING_HOUSING
+    Interface Region List1 = Primitive 2D DS,Primitive 2D DT
+    Interface Region List2 = Primitive 2D CK,Primitive 2D CL
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_BEARING_BALL_9_SLD_BEARING_HOUSING
+Boundary List1 = SOLID SOLID_SLD_BEARING_BALL_9_SLD_BEARING_HOUSING Side 1
+Boundary List2 = SOLID SOLID_SLD_BEARING_BALL_9_SLD_BEARING_HOUSING Side 2
+    Filter Domain List1 = SLD_BEARING_BALL_9
+    Filter Domain List2 = SLD_BEARING_HOUSING
+    Interface Region List1 = Primitive 2D DU,Primitive 2D DV
+    Interface Region List2 = Primitive 2D CM,Primitive 2D CN
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_BEARING_HOUSING_SLD_HOUSING_ACTUATOR
+Boundary List1 = SOLID SOLID_SLD_BEARING_HOUSING_SLD_HOUSING_ACTUATOR Side 1
+Boundary List2 = SOLID SOLID_SLD_BEARING_HOUSING_SLD_HOUSING_ACTUATOR Side 2
+    Filter Domain List1 = SLD_BEARING_HOUSING
+    Filter Domain List2 = SLD_HOUSING_ACTUATOR
+    Interface Region List1 = sld_bearing_housing sld_housing_actuator Shadow
+    Interface Region List2 = sld_bearing_housing sld_housing_actuator
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_BEARING_HOUSING_SLD_RETAINER
+Boundary List1 = SOLID SOLID_SLD_BEARING_HOUSING_SLD_RETAINER Side 1
+Boundary List2 = SOLID SOLID_SLD_BEARING_HOUSING_SLD_RETAINER Side 2
+    Filter Domain List1 = SLD_BEARING_HOUSING
+    Filter Domain List2 = SLD_RETAINER
+    Interface Region List1 = sld_bearing_housing sld_retainer Shadow
+    Interface Region List2 = sld_bearing_housing sld_retainer
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_BEARING_HOUSING_SLD_SHAFT_OUTPUT
+Boundary List1 = SOLID SOLID_SLD_BEARING_HOUSING_SLD_SHAFT_OUTPUT Side 1
+Boundary List2 = SOLID SOLID_SLD_BEARING_HOUSING_SLD_SHAFT_OUTPUT Side 2
+    Filter Domain List1 = SLD_BEARING_HOUSING
+    Filter Domain List2 = SLD_SHAFT_OUTPUT
+    Interface Region List1 = sld_bearing_housing sld_shaft_output Shadow
+    Interface Region List2 = sld_bearing_housing sld_shaft_output
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_BRACKET_1_SLD_BRACKET_FLANGE
+Boundary List1 = SOLID SOLID_SLD_BRACKET_1_SLD_BRACKET_FLANGE Side 1
+Boundary List2 = SOLID SOLID_SLD_BRACKET_1_SLD_BRACKET_FLANGE Side 2
+    Filter Domain List1 = SLD_BRACKET_1
+    Filter Domain List2 = SLD_BRACKET_FLANGE
+    Interface Region List1 = Primitive 2D CY,Primitive 2D CZ
+    Interface Region List2 = Primitive 2D BM,Primitive 2D BN
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_BRACKET_1_SLD_BRACKET_2
+Boundary List1 = SOLID SOLID_SLD_BRACKET_1_SLD_BRACKET_2 Side 1
+Boundary List2 = SOLID SOLID_SLD_BRACKET_1_SLD_BRACKET_2 Side 2
+    Filter Domain List1 = SLD_BRACKET_1
+    Filter Domain List2 = SLD_BRACKET_2
+    Interface Region List1 = sld_bracket_1 sld_bracket_2 Shadow
+    Interface Region List2 = sld_bracket_1 sld_bracket_2
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_BRACKET_2_SLD_HOUSING_TUBE_MACHINED
+Boundary List1 = SOLID SOLID_SLD_BRACKET_2_SLD_HOUSING_TUBE_MACHINED Side 1
+Boundary List2 = SOLID SOLID_SLD_BRACKET_2_SLD_HOUSING_TUBE_MACHINED Side 2
+    Filter Domain List1 = SLD_BRACKET_2
+    Filter Domain List2 = SLD_HOUSING_TUBE_MACHINED
+    Interface Region List1 = sld_bracket_2 sld_housing_tube_machined Shadow
+    Interface Region List2 = sld_bracket_2 sld_housing_tube_machined
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
+
+
+FLOW: Flow Analysis 1
+&replace DOMAIN INTERFACE: SOLID SOLID_SLD_BRACKET_2_SLD_INSULATION_GLIMMER_BOTTOM
+Boundary List1 = SOLID SOLID_SLD_BRACKET_2_SLD_INSULATION_GLIMMER_BOTTOM Side 1
+Boundary List2 = SOLID SOLID_SLD_BRACKET_2_SLD_INSULATION_GLIMMER_BOTTOM Side 2
+    Filter Domain List1 = SLD_BRACKET_2
+    Filter Domain List2 = SLD_INSULATION_GLIMMER_BOTTOM
+    Interface Region List1 = sld_bracket_2 sld_insulation_glimmer_bottom Shadow
+    Interface Region List2 = sld_bracket_2 sld_insulation_glimmer_bottom
+    Interface Type = Solid Solid
+    INTERFACE MODELS:
+      Option = General Connection
+      FRAME CHANGE:
+        Option = None
+      END
+      PITCH CHANGE:
+        Option = None
+      END
+    END
+    MESH CONNECTION:
+      Option = Automatic
+    END
+  END
+END
+  
