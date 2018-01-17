@@ -125,6 +125,7 @@ class AppRenameIfs(tk.Frame):
         for line in self.inputdata:
             if 'DOMAIN:' in line:
                 self.dom_names.append(line.split(' : ')[1])
+              
     
     def cmd_write(self):
         # do check!!!
