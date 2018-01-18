@@ -34,6 +34,12 @@ class define_tags(tk.Frame):
         self.label_tagfsif = tk.Label(self.frame_tags,text='Fluid Solid interface tag')
         self.entry_tagfsif = tk.Entry(self.frame_tags,width=30)
         
+        self.entry_tagsolid.insert('end','SLD')
+        self.entry_tagfluid.insert('end','FLD')
+        self.entry_tagffif.insert('end','FFIF')
+        self.entry_tagssif.insert('end','SSIF')
+        self.entry_tagfsif.insert('end','FSIF')
+        
         self.button_write = tk.Button(
                 self.frame_tags,
                 text='Write',

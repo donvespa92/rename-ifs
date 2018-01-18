@@ -1,5 +1,6 @@
 from domain import domain,boundary
 import ccl_templates as ccl
+import re
 
 class interface:
     instances = []
@@ -56,13 +57,12 @@ class if_mainloop:
     def get_if_locs(self):
         for bnd in boundary.instances:
             for i in interface.instances:
-                if i.name in bnd.name:
-                    if 'Side 1' in bnd.name:
-                        i.loc_side1 = bnd.loc
-                        i.dom1 = bnd.domain
-                    elif 'Side 2' in bnd.name:
-                        i.loc_side2 = bnd.loc
-                        i.dom2 = bnd.domain
+                if re.match(r'(%s Side 1)' % i.name,bnd.name):
+                    i.loc_side1 = bnd.loc
+                    i.dom1 = bnd.domain
+                elif re.match(r'(%s Side 2)' % i.name,bnd.name):
+                    i.loc_side2 = bnd.loc
+                    i.dom2 = bnd.domain
     
     def new_name(self,tags):
         solid = tags['solid'].upper()
@@ -96,7 +96,7 @@ class if_mainloop:
                      
                 
 # --- For testing 
-#path = 'd:/BW_ES/P048_ELEC_FLAP_EGR_CHT/04_CFX_Pre/dom_and_if_data2.ccl'
+#path = 'd:/BW_ES/P048_ELEC_FLAP_EGR_CHT/04_CFX_Pre/temp/doms_ifs.ccl'
 #root = if_mainloop(path)
 
         

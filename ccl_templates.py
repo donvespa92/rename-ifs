@@ -1,14 +1,11 @@
-# Template file for fluid and solid domains
-# Material for solid domains: Aluminium
-# Material for fluid domains: Water
-# Every other option is set to default
+# Template file for CFX Command Language
 
 def templates(name):
     template_domain_solid = """
 
 # ----- Domain: !DOMAIN_NAME! 
 
-DOMAIN: !DOMAIN_NAME!
+  DOMAIN: !DOMAIN_NAME!
 		Coord Frame = Coord 0
 		Domain Type = !DOMAIN_TYPE!
 		Location = !DOMAIN_LOCATION!
@@ -46,7 +43,7 @@ DOMAIN: !DOMAIN_NAME!
 
 # ----- Domain: !DOMAIN_NAME!
 
-DOMAIN: !DOMAIN_NAME!
+  DOMAIN: !DOMAIN_NAME!
 		Coord Frame = Coord 0
 		Domain Type = !DOMAIN_TYPE!
 		Location = !DOMAIN_LOCATION!

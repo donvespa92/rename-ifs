@@ -66,9 +66,10 @@ class boundary:
                         break
                     else:
                         for idx,line in enumerate(self.data[fidx:]):
-                            if not '\\' in line:
-                                self.loc = self.sformat(''.join(self.data[fidx:fidx+idx+1]))
+                            if 'BOUNDARY CONDITIONS:' in line:
+                                lidx = idx
                                 break
+                        self.loc = self.sformat(''.join(self.data[fidx:fidx+lidx]))
            
         def sformat(self,s):
             locs = []
@@ -86,7 +87,10 @@ class boundary:
     
 
 # --- For testing       
-#path = 'd:/BW_ES/P048_ELEC_FLAP_EGR_CHT/04_CFX_Pre/dom_and_if_data2.ccl'
+#path = 'd:/BW_ES/P048_ELEC_FLAP_EGR_CHT/04_CFX_Pre/temp/doms_ifs.ccl'
 #name = 'FLD_GAS'
 #mydom = domain(name,path)
+#
+#for bnd in mydom.boundaries:
+#    boundary(bnd,mydom,mydom.boundaries[bnd])
 
